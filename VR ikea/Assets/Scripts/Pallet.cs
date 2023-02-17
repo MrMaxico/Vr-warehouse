@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pallet : MonoBehaviour
 {
-    public List <GameObject> palletItems;
+    public GameObject[] palletItems;
     // Start is called before the first frame update
     void Start()
     {
