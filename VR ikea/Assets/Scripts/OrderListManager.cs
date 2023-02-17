@@ -34,7 +34,7 @@ public class OrderListManager : MonoBehaviour
     {
         if (other.gameObject.tag == "pallet")
         {
-            if (other.GetComponent<Pallet>().items == itemsOrder)
+            if (other.GetComponent<Pallet>().palletItems == itemsOrder)
             {
                 //alle items zitten op de pallet en gaan in de bus
                 warehouseManager.GetComponent<WarehouseManager>().points += itemValue;
@@ -43,21 +43,20 @@ public class OrderListManager : MonoBehaviour
 
             else
             {
-                for (int i = 0; i < other.GetComponent<Pallet>().items.Count; i++)
+                for (int i = 0; i < other.GetComponent<Pallet>().palletItems.Count; i++)
                 {
-                    
-                       
-                        if (other.GetComponent<Pallet>().items.Intersect(itemsOrder).Any()) // check if there is equal items
+                    if (itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems).Any()) // check if there is equal items
+                    {
+                        GameObject[] correctItemsPallet = itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems); 
+                        for (int g = 0; g < itemsOrder.Count; g++)
                         {
-                            GameObject[] equalItems = other.GetComponent<Pallet>().items.Intersect(itemsOrder); // get list of equal items (2, 6, 9)
-                            for (int i = 0; i < equalItems.Length; i++)
-                            {
-                                equalItems[i].color = Color.gray;
-                            }
+                            itemText[g].color = Color.gray;
                         }
+                    }
                     
                 }
-                itemText[1].color = Color.gray;
+
+                
             }
         }
     }
