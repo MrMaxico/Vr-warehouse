@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Warehuis : MonoBehaviour
+public class WarehouseManager : MonoBehaviour
 {
 
     // Start is called before the first frame update
@@ -17,7 +18,9 @@ public class Warehuis : MonoBehaviour
         
     }
 
-    public void loadLevel(int num) {
-        if(WarehouseManager)
+    public void LoadLevel(int num) {
+        if(levelCounter == num) {
+            SceneManager.LoadScene(num);
+        }
     }
 }
