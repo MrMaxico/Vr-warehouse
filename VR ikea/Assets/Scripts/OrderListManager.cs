@@ -17,7 +17,7 @@ public class OrderListManager : MonoBehaviour
     {
         for (int i = 0; i < itemsOrder.Length; i++)
         {
-            itemNames[i] = itemsOrder[i].name; //kijkt in scriptableObject voor naam item
+            //itemNames[i] = itemsOrder[i].itemName; //kijkt in scriptableObject voor naam item
         }
     }
 
@@ -36,7 +36,7 @@ public class OrderListManager : MonoBehaviour
             if (other.GetComponent<Pallet>().palletItems == itemsOrder)
             {
                 //alle items zitten op de pallet en gaan in de bus
-                warehouseManager.GetComponent<WarehouseManager>().points += itemValue;
+                //warehouseManager.GetComponent<WarehouseManager>().points += itemValue;
                 
             }
 
