@@ -9,7 +9,6 @@ public class OrderListManager : MonoBehaviour
     public GameObject[] itemsOrder;
     public GameObject[] correctItems;
     public bool isCompleted;
-    public Text[] itemNames;
     public GameObject warehouseManager;
     public int itemValue;
 
