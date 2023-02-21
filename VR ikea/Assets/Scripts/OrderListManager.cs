@@ -7,6 +7,7 @@ using System.Linq;
 public class OrderListManager : MonoBehaviour
 {
     public GameObject[] itemsOrder;
+    public GameObject[] correctItems;
     public bool isCompleted;
     public Text[] itemNames;
     public GameObject warehouseManager;
@@ -17,11 +18,11 @@ public class OrderListManager : MonoBehaviour
     {
         for (int i = 0; i < itemsOrder.Length; i++)
         {
-            //itemNames[i] = itemsOrder[i].itemName; //kijkt in scriptableObject voor naam item
+            itemNames[i] = itemsOrder[i].GetComponent<ItemData>().itemName; //kijkt in scriptableObject voor naam item
         }
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
       
@@ -33,35 +34,28 @@ public class OrderListManager : MonoBehaviour
     {
         if (other.gameObject.tag == "pallet")
         {
-            if (other.GetComponent<Pallet>().palletItems == itemsOrder)
+            itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems).Any();
+            correctItems = itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems).ToArray<GameObject>();
+            if(correctItems.Length == itemsOrder.Length)
             {
-                //alle items zitten op de pallet en gaan in de bus
-                //warehouseManager.GetComponent<WarehouseManager>().points += itemValue;
-                
+                    //alle items zitten op de pallet en gaan in de bus
             }
-
+                
             else
             {
                 for (int i = 0; i < other.GetComponent<Pallet>().palletItems.Length; i++)
                 {
-                    if (itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems).Any()) // check if there is equal items
-                    {
-                        GameObject[] correctItems = itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems).ToArray<GameObject>(); 
+                    itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems).Any();
+                    
+                    correctItems = itemsOrder.Intersect(other.GetComponent<Pallet>().palletItems).ToArray<GameObject>(); 
                         
-                        for (int g = 0; g < correctItems.Length; g++)
-                        {
-                            if(itemsOrder[g] == correctItems[g])
-                            {
-                                itemNames[g].color = Color.green;
-                            }
-
-                            
-                        }
+                    for (int g = 0; g < correctItems.Length; g++)
+                    {  
+                        correctItems[g].GetComponent<Renderer>().material.color = Color.green;
+                        // de correcte items worden groen maar de order is niet compleet
                     }
                     
                 }
-
-                
             }
         }
     }
