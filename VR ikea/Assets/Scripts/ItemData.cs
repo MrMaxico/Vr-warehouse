@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ItemData : MonoBehaviour
+[CreateAssetMenu(menuName = "Enemy Stats", order = 2, fileName = "New Enemy Stats")]
+
+public class ItemData : ScriptableObject
 {
-    public ItemData itemData;
+    [SerializeField] public string itemName;
+    [SerializeField] public string itemLocation;
+    [SerializeField] public string size;
     // Start is called before the first frame update
     void Start()
     {
