@@ -18,7 +18,7 @@ public class OrderListManager : MonoBehaviour
     {
         for (int i = 0; i < itemsOrder.Length; i++)
         {
-            itemNames[i] = itemsOrder[i].GetComponent<ItemData>().itemName; //kijkt in scriptableObject voor naam item
+            //itemNames[i] = itemsOrder[i].GetComponent<ItemData>().itemData.itemName; //kijkt in scriptableObject voor naam item
         }
     }
 

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemData : MonoBehaviour
 {
-    public Text itemName;
+    public ItemData itemData;
     // Start is called before the first frame update
     void Start()
     {
