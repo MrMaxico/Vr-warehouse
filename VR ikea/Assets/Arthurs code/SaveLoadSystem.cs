@@ -22,7 +22,13 @@ public class SaveLoadSystem
     public static PlayerData loadPLayer() {
         string path = Application.persistentDataPath + "/player.data";
         if (File.Exists(path)) {
-            return null;
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
+
+            PlayerData data = formatter.Deserialize(stream) as PlayerData;
+            stream.Close();
+
+            return data;
         } else {
             Debug.LogError("Save file not found in " + path);
             return null;
