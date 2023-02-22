@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2514238993587865495}
   - component: {fileID: 1534465913987958834}
   - component: {fileID: 3652265192242445560}
+  - component: {fileID: 7614029095886066850}
   m_Layer: 0
   m_Name: pylon
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7614029095886066850
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3003777426981248301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6291026919435153079, guid: 7cc79b26db86b2f4f8d64234e8359f62, type: 3}
