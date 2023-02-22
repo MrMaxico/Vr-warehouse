@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(menuName = "Enemy Stats", order = 2, fileName = "New Enemy Stats")]
+[CreateAssetMenu(menuName = "Item Stats", order = 2, fileName = "New Item Stats")]
 
 public class ItemData : ScriptableObject
 {
-    [SerializeField] public string itemName;
-    [SerializeField] public string itemLocation;
-    [SerializeField] public string size;
+    [SerializeField] string itemName;
+    [SerializeField] string itemLocation;
+    [SerializeField] string size;
     // Start is called before the first frame update
     void Start()
     {
