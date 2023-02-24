@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3436971315023712002}
   - component: {fileID: 2884199356096786747}
   m_Layer: 0
-  m_Name: box size large
+  m_Name: doos groot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
