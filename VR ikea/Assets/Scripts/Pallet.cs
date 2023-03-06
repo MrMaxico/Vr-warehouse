@@ -8,6 +8,7 @@ public class Pallet : MonoBehaviour
 
     public Transform[] bigItems;
     private bool hasToBeFilled; //zorgt ervoor dat 1 item niet alles in de pallet vult, een glitch
+    private int childCounter; //telt voor de grote dozen hoeveel kleine er zijn
     
 
     private void OnTriggerEnter(Collider other)
@@ -19,18 +20,15 @@ public class Pallet : MonoBehaviour
             {
                 foreach (Transform child in bigItems[i])
                 {
-                    if (child.gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled)
+                    if (child.gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
                     {
                         other.transform.position = child.position;
                         palletItems.Add(other.gameObject);
                         child.gameObject.GetComponent<PalletPosition>().isFull = true;
-                        bigItems[i].gameObject.GetComponent<PalletPosition>().isFull = true;
                         hasToBeFilled = false;
+                        print("addMediumItem");
                     }
                 }
-
-
-
             }
         }
 
@@ -40,13 +38,23 @@ public class Pallet : MonoBehaviour
             hasToBeFilled = true;
             for (int i = 0; i < bigItems.Length; i++)
             {
-                if (bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled)
+                childCounter = 0;
+                foreach (Transform child in bigItems[i])
                 {
-                    other.transform.position = bigItems[i].position;
-                    palletItems.Add(other.gameObject);
-                    bigItems[i].gameObject.GetComponent<PalletPosition>().isFull = true;
-                    hasToBeFilled = false;
+                    if(child.gameObject.GetComponent<PalletPosition>().isFull == false)
+                    {
+                        childCounter++;
+                        if (childCounter == 4 && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled)
+                        {
+                            other.transform.position = bigItems[i].position;
+                            palletItems.Add(other.gameObject);
+                            bigItems[i].gameObject.GetComponent<PalletPosition>().isFull = true;
+                            hasToBeFilled = false;
+                            print("addBigItem");
+                        }
+                    }
                 }
+                    
             }
         }
     }
