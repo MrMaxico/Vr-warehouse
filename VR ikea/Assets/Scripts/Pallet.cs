@@ -40,7 +40,7 @@ public class Pallet : MonoBehaviour
             hasToBeFilled = true;
             for (int i = 0; i < bigItems.Length; i++)
             {
-                if (bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
+                if (bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled)
                 {
                     other.transform.position = bigItems[i].position;
                     palletItems.Add(other.gameObject);
