@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 511588313456311295}
   - component: {fileID: 3510095527842870362}
   - component: {fileID: 1680592531744751760}
+  - component: {fileID: 411182832729107208}
+  - component: {fileID: 1193784502791650468}
   m_Layer: 0
   m_Name: stelling brug
   m_TagString: Untagged
@@ -83,3 +85,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &411182832729107208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887867119146737989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.117550254, z: 1.1}
+  m_Center: {x: 0, y: 0.058773935, z: 0}
+--- !u!65 &1193784502791650468
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887867119146737989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.117613554, z: 1.1}
+  m_Center: {x: 0, y: 1.5602717, z: 0}
