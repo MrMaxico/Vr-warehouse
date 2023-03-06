@@ -18,7 +18,16 @@ public class Pallet : MonoBehaviour
             {
                 if (bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
                 {
-
+                    foreach(Transform child in bigItems[i])
+                    {
+                        if(child.gameObject.GetComponent<PalletPosition>().isFull == false)
+                        {
+                            other.transform.position = child.position;
+                            palletItems.Add(other.gameObject);
+                            child.gameObject.GetComponent<PalletPosition>().isFull = true;
+                            bigItems[i].gameObject.GetComponent<PalletPosition>().isFull = true;
+                        }
+                    }
                 }
 
             }
