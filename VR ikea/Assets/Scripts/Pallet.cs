@@ -7,49 +7,36 @@ public class Pallet : MonoBehaviour
     public List<GameObject> palletItems;
 
     public Transform[] bigItems;
-    public Transform[] mediumItems;
-    public Transform[] smallItems;
-
-    private int bigItemCounter;
-    private int mediumItemCounter;
-    private int smallItemCounter;
     
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.GetComponent<ItemData>().size == "Small")
-        {
-            if(smallItemCounter < smallItems.Length)
-            {
-                other.transform.position = smallItems[smallItemCounter].position;
-                smallItemCounter++;
-                palletItems.Add(other.gameObject);
-            }
-        }
 
         if (other.GetComponent<ItemData>().size == "Medium")
         {
-            print("nee");
-            if (mediumItemCounter < mediumItems.Length)
+            for (int i = 0; i < bigItems.Length; i++)
             {
-                print("ja");
-                other.transform.position = mediumItems[mediumItemCounter].position;
-                mediumItemCounter++;
-                palletItems.Add(other.gameObject);
-            } 
-            
+                if (bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
+                {
+
+                }
+
+            }
         }
 
         if (other.GetComponent<ItemData>().size == "Big")
         {
-            if (bigItemCounter < bigItems.Length)
+            for (int i = 0; i < bigItems.Length; i++)
             {
-                other.transform.position = bigItems[bigItemCounter].position;
-                bigItemCounter++;
-                palletItems.Add(other.gameObject);
+                if (bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
+                {
+                    other.transform.position = bigItems[i].position;
+                    palletItems.Add(other.gameObject);
+                    bigItems[i].gameObject.GetComponent<PalletPosition>().isFull = true;
+                }
             }
                 
-            
+       
         }
     }
 }
