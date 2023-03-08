@@ -9,5 +9,6 @@ public class ItemData : MonoBehaviour
     public string itemName;
     public string itemLocation;
     public string size;
+    public Transform palletLocation;
   
 }

@@ -540,6 +540,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 2, 2
   size: Medium
+  palletLocation: {fileID: 0}
 --- !u!65 &62391437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -796,6 +797,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 3, 3
   size: Big
+  palletLocation: {fileID: 0}
 --- !u!65 &70266980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1427,6 +1429,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 1, 3
   size: Big
+  palletLocation: {fileID: 0}
 --- !u!65 &156258565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2594,6 +2597,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 1, 2
   size: Medium
+  palletLocation: {fileID: 0}
 --- !u!65 &495613633
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2848,6 +2852,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 1, 1
   size: Small
+  palletLocation: {fileID: 0}
 --- !u!65 &605533836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4445,6 +4450,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 2, 3
   size: Big
+  palletLocation: {fileID: 0}
 --- !u!65 &1250918656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4952,6 +4958,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 2, 1
   size: Small
+  palletLocation: {fileID: 0}
 --- !u!65 &1536730767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6735,6 +6742,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 3, 1
   size: Small
+  palletLocation: {fileID: 0}
 --- !u!65 &2021654986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7012,6 +7020,7 @@ MonoBehaviour:
   itemName: 
   itemLocation: 3, 2
   size: Medium
+  palletLocation: {fileID: 0}
 --- !u!65 &2068763757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7083,7 +7092,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068763755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.617, y: 0.646, z: -5.6}
+  m_LocalPosition: {x: 0.61, y: 4.78, z: -0.49}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
