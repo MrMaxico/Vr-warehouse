@@ -65,14 +65,12 @@ public class Pallet : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<ItemData>().size == "Medium")
+        if (other.GetComponent<ItemData>().size == "Medium" || other.GetComponent<ItemData>().size == "Big")
         {
-
-        }
-
-        if (other.GetComponent<ItemData>().size == "Big")
-        {
-
+            other.transform.SetParent(null);
+            other.GetComponent<Rigidbody>().isKinematic = false;
+            other.transform.rotation = Quaternion.identity;
+            palletItems.Remove(other.gameObject);
         }
     }
 }
