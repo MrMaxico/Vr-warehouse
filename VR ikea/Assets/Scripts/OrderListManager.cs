@@ -28,7 +28,7 @@ public class OrderListManager : MonoBehaviour
         {
             itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).Any();
             correctItems = itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).ToArray<GameObject>();
-            if (correctItems.Length == itemsOrder.Length)
+            if (correctItems.Length == itemsOrder.Length && pallet.GetComponent<Pallet>().palletItems.Count == itemsOrder.Length)
             {
                 print("allItemsCorrect");
                 //alle items zitten op de pallet en gaan in de bus
