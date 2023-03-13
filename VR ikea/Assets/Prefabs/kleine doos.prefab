@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6878510301431169022}
   - component: {fileID: 7555557180949426267}
   - component: {fileID: 5710085423363294353}
+  - component: {fileID: 4123192258977475179}
   m_Layer: 0
   m_Name: kleine doos
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4123192258977475179
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6070482862964680004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2204998, y: 0.205, z: 0.32549998}
+  m_Center: {x: 0, y: 0.1025, z: 0.000000029802322}
