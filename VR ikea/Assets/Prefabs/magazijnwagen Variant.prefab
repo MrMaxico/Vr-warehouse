@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4910835298330433563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.0961142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.341
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.948
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f017651f639234347b5d1aaca05a1484, type: 2}
+    - target: {fileID: 919132149155446097, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_Name
+      value: magazijnwagen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 605a52a1732fc974c96cdd8bc3d5caf5, type: 3}
