@@ -23,7 +23,7 @@ public class Pallet : MonoBehaviour
                     if (child.gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
                     {
                         other.transform.position = child.position;
-                        //other.transform.parent = transform;
+                        other.transform.parent = transform;
                         //other.GetComponent<Rigidbody>().isKinematic = true;
                         other.GetComponent<ItemData>().palletLocation = child;
                         palletItems.Add(other.gameObject);
@@ -50,7 +50,7 @@ public class Pallet : MonoBehaviour
                         if (childCounter == 4 && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled)
                         {
                             other.transform.position = bigItems[i].position;
-                            //other.transform.parent = transform;
+                            other.transform.parent = transform;
                             //other.GetComponent<Rigidbody>().isKinematic = true;
                             other.GetComponent<ItemData>().palletLocation = bigItems[i];
                             palletItems.Add(other.gameObject);
@@ -69,12 +69,12 @@ public class Pallet : MonoBehaviour
     {
         if (other.GetComponent<ItemData>().size == "Medium" && other.GetComponent<ItemData>().palletLocation.gameObject.GetComponent<PalletPosition>().isFull || other.GetComponent<ItemData>().size == "Big" && other.GetComponent<ItemData>().palletLocation.gameObject.GetComponent<PalletPosition>().isFull)
         {
-            //print("removeItem");
-            //other.transform.SetParent(null);
-            //other.GetComponent<ItemData>().palletLocation.gameObject.GetComponent<PalletPosition>().isFull = false;
+            print("removeItem");
+            other.transform.SetParent(null);
+            other.GetComponent<ItemData>().palletLocation.gameObject.GetComponent<PalletPosition>().isFull = false;
             //other.GetComponent<Rigidbody>().isKinematic = false;
             //other.transform.rotation = Quaternion.identity;
-            //palletItems.Remove(other.gameObject);
+            palletItems.Remove(other.gameObject);
         }
     }
 }
