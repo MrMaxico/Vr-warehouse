@@ -2149,6 +2149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 375293462}
+  - component: {fileID: 375293463}
   m_Layer: 5
   m_Name: orderList
   m_TagString: Untagged
@@ -2185,6 +2186,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &375293463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375293461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68da8e6b263b4149988a80f9b9bb3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsOrder:
+  - {fileID: 62391435}
+  - {fileID: 2068763755}
+  correctItems: []
+  isCompleted: 0
+  warehouseManager: {fileID: 0}
+  itemValue: 10
+  itemNames: []
+  pallet: {fileID: 1218164082}
 --- !u!1 &376483410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,7 +2691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495613631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.47, y: 0.646, z: -6.17}
+  m_LocalPosition: {x: 1.47, y: 0.646, z: -9.488}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7092,7 +7114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068763755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.61, y: 4.78, z: -0.49}
+  m_LocalPosition: {x: -0.75, y: 0.61, z: -9.47}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []

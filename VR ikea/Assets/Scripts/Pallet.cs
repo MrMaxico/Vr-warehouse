@@ -23,8 +23,8 @@ public class Pallet : MonoBehaviour
                     if (child.gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
                     {
                         other.transform.position = child.position;
-                        other.transform.parent = transform;
-                        other.GetComponent<Rigidbody>().isKinematic = true;
+                        //other.transform.parent = transform;
+                        //other.GetComponent<Rigidbody>().isKinematic = true;
                         other.GetComponent<ItemData>().palletLocation = child;
                         palletItems.Add(other.gameObject);
                         child.gameObject.GetComponent<PalletPosition>().isFull = true;
@@ -50,8 +50,8 @@ public class Pallet : MonoBehaviour
                         if (childCounter == 4 && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled)
                         {
                             other.transform.position = bigItems[i].position;
-                            other.transform.parent = transform;
-                            other.GetComponent<Rigidbody>().isKinematic = true;
+                            //other.transform.parent = transform;
+                            //other.GetComponent<Rigidbody>().isKinematic = true;
                             other.GetComponent<ItemData>().palletLocation = bigItems[i];
                             palletItems.Add(other.gameObject);
                             bigItems[i].gameObject.GetComponent<PalletPosition>().isFull = true;
