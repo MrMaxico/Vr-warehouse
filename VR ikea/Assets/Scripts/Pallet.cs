@@ -9,7 +9,8 @@ public class Pallet : MonoBehaviour
     public Transform[] bigItems;
     private bool hasToBeFilled; //zorgt ervoor dat 1 item niet alles in de pallet vult, een glitch
     private int childCounter; //telt voor de grote dozen hoeveel kleine er zijn
-
+    public Transform parentItems;
+    private float kinematicTimer;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,13 +24,20 @@ public class Pallet : MonoBehaviour
                     if (child.gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
                     {
                         other.transform.position = child.position;
-                        other.transform.parent = transform;
+                        other.transform.parent = parentItems;
+                        other.transform.rotation = child.rotation;
                         //other.GetComponent<Rigidbody>().isKinematic = true;
                         other.GetComponent<ItemData>().palletLocation = child;
                         palletItems.Add(other.gameObject);
                         child.gameObject.GetComponent<PalletPosition>().isFull = true;
                         hasToBeFilled = false;
                         print("addMediumItem");
+                        other.GetComponent<Rigidbody>().isKinematic = true;
+                        kinematicTimer += Time.deltaTime;
+                        if (kinematicTimer > 1)
+                        {
+                            other.GetComponent<Rigidbody>().isKinematic = false;
+                        }
                     }
                 }
             }
@@ -49,14 +57,21 @@ public class Pallet : MonoBehaviour
                         childCounter++;
                         if (childCounter == 4 && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled)
                         {
+                            other.transform.rotation = bigItems[i].rotation;
                             other.transform.position = bigItems[i].position;
-                            other.transform.parent = transform;
+                            other.transform.parent = parentItems;
                             //other.GetComponent<Rigidbody>().isKinematic = true;
                             other.GetComponent<ItemData>().palletLocation = bigItems[i];
                             palletItems.Add(other.gameObject);
                             bigItems[i].gameObject.GetComponent<PalletPosition>().isFull = true;
                             hasToBeFilled = false;
                             print("addBigItem");
+                            other.GetComponent<Rigidbody>().isKinematic = true;
+                            kinematicTimer += Time.deltaTime;
+                            if(kinematicTimer > 1)
+                            {
+                                other.GetComponent<Rigidbody>().isKinematic = false;
+                            }
                         }
                     }
                 }
