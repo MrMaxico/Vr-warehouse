@@ -14,6 +14,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.0961142
       objectReference: {fileID: 0}
@@ -62,6 +77,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -70,7 +90,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 605a52a1732fc974c96cdd8bc3d5caf5,
         type: 3}
       propertyPath: m_Name
-      value: magazijnwagen
+      value: magazijnwagen Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 605a52a1732fc974c96cdd8bc3d5caf5, type: 3}
