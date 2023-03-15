@@ -129,8 +129,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028615475, y: 0.11951947, z: 1.1}
-  m_Center: {x: 1.4856923, y: 1.4402412, z: 0}
+  m_Size: {x: 0.028615475, y: 0.11951947, z: 0.9998105}
+  m_Center: {x: 1.4856923, y: 1.4402412, z: -0.015203923}
 --- !u!65 &4072085827841757745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -142,8 +142,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.023362637, y: 0.12106466, z: 1.1}
-  m_Center: {x: -1.4883187, y: 1.4394686, z: 0}
+  m_Size: {x: 0.023362637, y: 0.12106466, z: 1.0042264}
+  m_Center: {x: -1.4883187, y: 1.4394686, z: -0.0021185577}
 --- !u!65 &6749899379874895467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -155,8 +155,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.13321781, y: 1.5000011, z: 0.13247341}
-  m_Center: {x: 1.4119129, y: 0.7500004, z: 0.45998242}
+  m_Size: {x: 0.13321781, y: 1.3433819, z: 0.13247341}
+  m_Center: {x: 1.4119129, y: 0.6716908, z: 0.45998242}
 --- !u!65 &640290649860439026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -168,8 +168,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.12786674, y: 1.5000011, z: 0.13999471}
-  m_Center: {x: 1.4163456, y: 0.7500004, z: -0.46486598}
+  m_Size: {x: 0.12786674, y: 1.3555956, z: 0.13999474}
+  m_Center: {x: 1.4163456, y: 0.6777977, z: -0.46486598}
 --- !u!65 &7377580027844311031
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -181,8 +181,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.12842059, y: 1.5000011, z: 0.1323111}
-  m_Center: {x: -1.4115671, y: 0.7500004, z: 0.46368122}
+  m_Size: {x: 0.12842059, y: 1.3575228, z: 0.1323111}
+  m_Center: {x: -1.4115671, y: 0.6787613, z: 0.46368122}
 --- !u!65 &7287880660857529673
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -194,8 +194,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1357925, y: 1.5000011, z: 0.12349689}
-  m_Center: {x: -1.4129711, y: 0.7500004, z: -0.4600793}
+  m_Size: {x: 0.1357925, y: 1.3620676, z: 0.12349689}
+  m_Center: {x: -1.4129711, y: 0.6810337, z: -0.4600793}
 --- !u!1001 &8600473474271860490
 PrefabInstance:
   m_ObjectHideFlags: 0
