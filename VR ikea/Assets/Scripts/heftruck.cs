@@ -26,18 +26,18 @@ public class heftruck : MonoBehaviour
 
         if(inHeftruck)
         {
-            Gas();
-            Brake();
+            GasAndBreak();
+            Wheel();
             Forks();
         }
     }
 
-    void Gas()
+    void GasAndBreak()
     {
-
+        //met de joystick van oculus wordt de gas en de rem bepaald
     }
 
-    void Brake()
+    void Wheel()
     {
 
     }
