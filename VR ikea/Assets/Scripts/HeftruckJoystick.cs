@@ -9,6 +9,8 @@ public class HeftruckJoystick : MonoBehaviour
     public float forwardBackwardTilt = 0;
 
     public float sideToSideTilt = 0;
+
+    public GameObject forks;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,14 +25,17 @@ public class HeftruckJoystick : MonoBehaviour
         {
             forwardBackwardTilt = Mathf.Abs(forwardBackwardTilt - 360);
             Debug.Log("Backward" + forwardBackwardTilt);
+            forks.transform.Translate(-transform.up * forwardBackwardTilt);
 
         }
 
         else if (forwardBackwardTilt > 5 && forwardBackwardTilt < 74)
         {
             Debug.Log("Forward" + forwardBackwardTilt);
+            forks.transform.Translate(transform.up * forwardBackwardTilt);
         }
 
+        /*
         sideToSideTilt = topJoystick.rotation.eulerAngles.z;
         if (sideToSideTilt < 355 && sideToSideTilt > 290)
         {
@@ -43,6 +48,7 @@ public class HeftruckJoystick : MonoBehaviour
         {
             Debug.Log("Left" + sideToSideTilt);
         }
+        */
 
 
     }

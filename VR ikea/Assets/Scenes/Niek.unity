@@ -239,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21869357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.13605201, y: 1.3699999, z: 0.26027688}
+  m_LocalPosition: {x: -0.13605201, y: 1.6200001, z: 0.26027688}
   m_LocalScale: {x: 0.17669094, y: 0.6868744, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73945424610d614386e695bff7e36e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Yellow
   itemLocation: 2, 2
   size: Medium
   palletLocation: {fileID: 0}
@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73945424610d614386e695bff7e36e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: lightBlue
   itemLocation: 3, 3
   size: Big
   palletLocation: {fileID: 0}
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73945424610d614386e695bff7e36e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Blue
   itemLocation: 1, 3
   size: Big
   palletLocation: {fileID: 0}
@@ -2228,7 +2228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418713824}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33041203, y: 1.3699999, z: 0.26027688}
+  m_LocalPosition: {x: 0.33041203, y: 1.6200001, z: 0.26027688}
   m_LocalScale: {x: 0.17669094, y: 0.6868744, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2421,7 +2421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73945424610d614386e695bff7e36e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: darkBlue
   itemLocation: 1, 2
   size: Medium
   palletLocation: {fileID: 0}
@@ -2644,6 +2644,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!1 &508218129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7696548424635294048, guid: 895f6f3c2d334633b5800312285058d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 20233696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &577208370
 GameObject:
   m_ObjectHideFlags: 0
@@ -3520,7 +3526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943044236}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3692841, y: 1.3699999, z: -0.22042093}
+  m_LocalPosition: {x: -0.3692841, y: 1.6200001, z: -0.22042093}
   m_LocalScale: {x: 0.17669094, y: 0.6868744, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4390,8 +4396,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.6944995, z: 1}
-  m_Center: {x: 0, y: 1.3126974, z: 0}
+  m_Size: {x: 1, y: 2.2435184, z: 1}
+  m_Center: {x: 0, y: 1.0381875, z: 0}
 --- !u!23 &1218164086
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4573,7 +4579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73945424610d614386e695bff7e36e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Orange
   itemLocation: 2, 3
   size: Big
   palletLocation: {fileID: 0}
@@ -4951,7 +4957,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455516266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33041203, y: 1.3699999, z: -0.22042093}
+  m_LocalPosition: {x: 0.33041203, y: 1.6200001, z: -0.22042093}
   m_LocalScale: {x: 0.17669094, y: 0.68687445, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5076,6 +5082,7 @@ MonoBehaviour:
   topJoystick: {fileID: 577651861047594291}
   forwardBackwardTilt: 0
   sideToSideTilt: 0
+  forks: {fileID: 6338465534108110071}
 --- !u!54 &1534244205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5313,7 +5320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596078871}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.13605201, y: 1.3699999, z: -0.22042093}
+  m_LocalPosition: {x: -0.13605201, y: 1.6200001, z: -0.22042093}
   m_LocalScale: {x: 0.17669094, y: 0.6868744, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5414,7 +5421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606172450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3692841, y: 1.37, z: 0.26027688}
+  m_LocalPosition: {x: -0.3692841, y: 1.6200002, z: 0.26027688}
   m_LocalScale: {x: 0.17669094, y: 0.6868744, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5569,7 +5576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633241854}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09011237, y: 1.3699999, z: 0.26027688}
+  m_LocalPosition: {x: 0.09011237, y: 1.62, z: 0.26027688}
   m_LocalScale: {x: 0.17669094, y: 0.6868744, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6458,7 +6465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959592335}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09011237, y: 1.3699999, z: -0.22042093}
+  m_LocalPosition: {x: 0.09011237, y: 1.6200001, z: -0.22042093}
   m_LocalScale: {x: 0.17669094, y: 0.6868744, z: 0.34657377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7290,7 +7297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73945424610d614386e695bff7e36e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Purple
   itemLocation: 3, 2
   size: Medium
   palletLocation: {fileID: 0}
@@ -8762,13 +8769,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895021350648427720}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6248522, y: -0.3477387, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.60134274, y: 1.4842939, z: -0.57037634}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4423831554239442399}
-  m_RootOrder: 6
+  m_Father: {fileID: 3411361776950992699}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2476097010747678898
 MeshRenderer:
@@ -9142,7 +9149,8 @@ Transform:
   m_LocalPosition: {x: 0.9286385, y: -3.2116535, z: 0.013793715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2474157512150914204}
   m_Father: {fileID: 4543943513652789537}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9709,7 +9717,6 @@ Transform:
   - {fileID: 29397536590723228}
   - {fileID: 1876182985703951200}
   - {fileID: 412336416710786258}
-  - {fileID: 2474157512150914204}
   - {fileID: 6644424297360438106}
   m_Father: {fileID: 6076917124509660910}
   m_RootOrder: 4
@@ -10468,6 +10475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6534070494102521364}
+  - component: {fileID: 6534070494102521365}
   m_Layer: 0
   m_Name: Forklift
   m_TagString: Untagged
@@ -10654,7 +10662,7 @@ GameObject:
   - component: {fileID: 5817369933305082127}
   - component: {fileID: 827327433691964205}
   m_Layer: 0
-  m_Name: Cube_13_2
+  m_Name: forks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10755,6 +10763,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6534070494102521365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5901543803347000494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ab137a4dea4d8418e1c72ccfe6959a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOrigin: {fileID: 508218129}
 --- !u!4 &6559599897754534540
 Transform:
   m_ObjectHideFlags: 0
@@ -10854,7 +10875,7 @@ Transform:
   m_Children:
   - {fileID: 4543943513652789537}
   m_Father: {fileID: 4423831554239442399}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6677409502661887098
 GameObject:
