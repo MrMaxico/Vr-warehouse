@@ -49,8 +49,9 @@ public class HeftruckJoystick : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("PlayerHand"))
+        if(other.tag == ("playerRightHand"))
         {
+            print("wauw");
             transform.LookAt(other.transform.position, transform.up);
         }
     }
