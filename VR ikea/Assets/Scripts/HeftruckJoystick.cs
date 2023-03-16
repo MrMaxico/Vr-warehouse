@@ -11,13 +11,15 @@ public class HeftruckJoystick : MonoBehaviour
     public float sideToSideTilt = 0;
 
     public GameObject forks;
-    // Start is called before the first frame update
-    void Start()
+    private bool canGoHigher;
+    private bool canGoLower;
+
+    private void Start()
     {
-        
+        canGoHigher = true;
+        canGoLower = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
         forwardBackwardTilt = topJoystick.rotation.eulerAngles.x;
@@ -25,14 +27,42 @@ public class HeftruckJoystick : MonoBehaviour
         {
             forwardBackwardTilt = Mathf.Abs(forwardBackwardTilt - 360);
             Debug.Log("Backward" + forwardBackwardTilt);
-            forks.transform.Translate(-transform.up * forwardBackwardTilt);
+            if(canGoLower)
+            {
+                forks.transform.Translate(-Vector3.up * (forwardBackwardTilt / 10));
+                canGoHigher = true;
+                if(forks.transform.position.y < -3)
+                {
+                    print("teLaag");
+                    canGoLower = false;
+                }
 
+                else
+                {
+                    canGoLower = true;
+                }
+            }
         }
 
         else if (forwardBackwardTilt > 5 && forwardBackwardTilt < 74)
         {
             Debug.Log("Forward" + forwardBackwardTilt);
-            forks.transform.Translate(transform.up * forwardBackwardTilt);
+
+            if (canGoHigher)
+            {
+                forks.transform.Translate(Vector3.up * (forwardBackwardTilt / 10));
+                canGoLower = true;
+                if (forks.transform.position.y > -1)
+                {
+                    print("teHoog");
+                    canGoHigher = false;
+                }
+
+                else
+                {
+                    canGoHigher = true;
+                }
+            }
         }
 
         /*

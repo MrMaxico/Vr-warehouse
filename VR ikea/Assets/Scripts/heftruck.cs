@@ -5,12 +5,13 @@ using UnityEngine;
 public class heftruck : MonoBehaviour
 {
     public GameObject playerOrigin;
+    public GameObject playerCamera;
     private RaycastHit hit;
     private bool inHeftruck;
     
     void Update()
     {
-        Physics.Raycast(playerOrigin.transform.position, playerOrigin.transform.forward, out hit, 10);
+        Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 10);
         if (hit.transform.gameObject.tag == "heftruck" && Input.GetKeyDown(KeyCode.H)) // speler kijkt naar heftruck en klikt op "h" om in te stappen
         {
             inHeftruck = true;
