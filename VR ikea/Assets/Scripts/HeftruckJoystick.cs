@@ -29,17 +29,12 @@ public class HeftruckJoystick : MonoBehaviour
             Debug.Log("Backward" + forwardBackwardTilt);
             if(canGoLower)
             {
-                forks.transform.Translate(-Vector3.up * (forwardBackwardTilt / 10));
+                forks.transform.Translate(-Vector3.up * (forwardBackwardTilt / 700));
                 canGoHigher = true;
-                if(forks.transform.position.y < -3)
+                if(forks.transform.position.y < 0)
                 {
                     print("teLaag");
                     canGoLower = false;
-                }
-
-                else
-                {
-                    canGoLower = true;
                 }
             }
         }
@@ -50,17 +45,12 @@ public class HeftruckJoystick : MonoBehaviour
 
             if (canGoHigher)
             {
-                forks.transform.Translate(Vector3.up * (forwardBackwardTilt / 10));
+                forks.transform.Translate(Vector3.up * (forwardBackwardTilt / 700));
                 canGoLower = true;
-                if (forks.transform.position.y > -1)
+                if (forks.transform.position.y > 2)
                 {
                     print("teHoog");
                     canGoHigher = false;
-                }
-
-                else
-                {
-                    canGoHigher = true;
                 }
             }
         }
