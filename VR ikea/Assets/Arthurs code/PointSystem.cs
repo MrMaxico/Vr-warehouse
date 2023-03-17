@@ -6,16 +6,17 @@ using UnityEngine.UI;
 public class PointSystem : MonoBehaviour
 {
     public float timeLimit = 30f; // The time limit for the task in seconds
-    public int pointsPerTask = 100; // The number of points to award for completing the task
+    public float pointsOnComplete = 100; // The number of points to award for completing the task
     public Text scoreText; // The UI text component that displays the player's score
 
-    private float timeRemaining;
+    public float timeSpent;
+    public float overTime;
+    public float overTimePointsPanneltyMultiplier;
     private bool isTaskComplete;
-    private int score;
+    private float score;
 
     // Start is called before the first frame update
     void Start() {
-        timeRemaining = timeLimit;
         isTaskComplete = false;
         score = 0;
     }
@@ -24,18 +25,20 @@ public class PointSystem : MonoBehaviour
     void Update() {
         if (!isTaskComplete) {
             // Update the timer
-            timeRemaining -= Time.deltaTime;
-            if (timeRemaining <= 0) {
-                // The timer has run out
-                timeRemaining = 0;
-                isTaskComplete = true;
-            }
+            timeSpent += Time.deltaTime;
         }
 
         // Update the score if the task is complete
         if (isTaskComplete) {
-            score += pointsPerTask;
-            scoreText.text = "Score: " + score.ToString();
+            
         }
+    }
+    public void LevelComplete() {
+        if(timeSpent > timeLimit) {
+            overTime = timeSpent - timeLimit;
+            pointsOnComplete =- overTime * overTimePointsPanneltyMultiplier;
+        }
+        score = pointsOnComplete;
+        scoreText.text = "Score: " + score.ToString();
     }
 }
