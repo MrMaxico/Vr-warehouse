@@ -5,24 +5,40 @@ using UnityEngine;
 public class heftruck : MonoBehaviour
 {
     public GameObject playerOrigin;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public GameObject playerCamera;
+    private RaycastHit hit;
+    private bool inHeftruck;
+    
     void Update()
     {
-        //playerOrigin.GetComponent<XROrigin>()
+        Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 10);
+        if (hit.transform.gameObject.tag == "heftruck" && Input.GetKeyDown(KeyCode.H)) // speler kijkt naar heftruck en klikt op "h" om in te stappen
+        {
+            inHeftruck = true;
+            playerOrigin.transform.position = hit.transform.position;
+            playerOrigin.transform.rotation = hit.transform.rotation;
+        }
+
+        if (Input.GetKeyDown(KeyCode.H) && inHeftruck)
+        {
+            inHeftruck = false;
+            playerOrigin.transform.position = transform.position - new Vector3(2, 0, 0); // spawn speler naast heftruck, de speler stapt uit
+        }
+
+        if(inHeftruck)
+        {
+            GasAndBreak();
+            Wheel();
+            Forks();
+        }
     }
 
-    void Gas()
+    void GasAndBreak()
     {
-
+        //met de joystick van oculus wordt de gas en de rem bepaald
     }
 
-    void Brake()
+    void Wheel()
     {
 
     }
