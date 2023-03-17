@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
+using UnityEngine.XR.Interaction;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class heftruck : MonoBehaviour
 {
@@ -8,7 +12,14 @@ public class heftruck : MonoBehaviour
     public GameObject playerCamera;
     private RaycastHit hit;
     private bool inHeftruck;
-    
+
+    public InputActionReference gas;
+
+    private void Start()
+    {
+        gas.action.performed += GasAndBreak;
+    }
+
     void Update()
     {
         Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 10);
@@ -27,23 +38,19 @@ public class heftruck : MonoBehaviour
 
         if(inHeftruck)
         {
-            GasAndBreak();
             Wheel();
-            Forks();
         }
     }
 
-    void GasAndBreak()
+    private void GasAndBreak(InputAction.CallbackContext obj)
     {
         //met de joystick van oculus wordt de gas en de rem bepaald
+
+        // float joystick = -1, 0 of 1
+        //heftruck.transform.Translate(heftruck.transform.forward * joystick);
     }
 
     void Wheel()
-    {
-
-    }
-
-    void Forks()
     {
 
     }

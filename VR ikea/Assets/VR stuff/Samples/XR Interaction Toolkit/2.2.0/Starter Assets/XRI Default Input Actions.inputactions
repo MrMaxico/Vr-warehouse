@@ -936,6 +936,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "heftruckMovement",
+                    "type": "Button",
+                    "id": "3a1a7528-feae-4795-abc6-068985d2c6e5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1017,13 +1026,24 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",                
+                    "name": "",
                     "id": "31d838df-4d4e-4c16-a373-b9c07d9d2e2a",
                     "path": "<XRController>{RightHand}/Primary2DAxis",
                     "interactions": "Sector(directions=12,sweepBehavior=1),Sector(directions=2,sweepBehavior=2)",
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Snap Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91f70a2b-5e60-4faf-818e-a9d81f39f0e7",
+                    "path": "<XRController>{RightHand}/primary2DAxisTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "heftruckMovement",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
