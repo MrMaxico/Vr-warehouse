@@ -10777,6 +10777,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerOrigin: {fileID: 508218129}
   playerCamera: {fileID: 1743716122}
+  gas: {fileID: -3474110479349162947, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  inHeftruckButton: {fileID: 6367065124402601752, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!4 &6559599897754534540
 Transform:
   m_ObjectHideFlags: 0

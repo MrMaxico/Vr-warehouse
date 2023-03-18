@@ -14,31 +14,21 @@ public class heftruck : MonoBehaviour
     private bool inHeftruck;
 
     public InputActionReference gas;
+    public InputActionReference inHeftruckButton;
 
     private void Start()
     {
         gas.action.performed += GasAndBreak;
+        inHeftruckButton.action.performed += EnterHeftruck;
     }
 
     void Update()
     {
-        Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 10);
-        if (hit.transform.gameObject.tag == "heftruck" && Input.GetKeyDown(KeyCode.H)) // speler kijkt naar heftruck en klikt op "h" om in te stappen
-        {
-            inHeftruck = true;
-            playerOrigin.transform.position = hit.transform.position;
-            playerOrigin.transform.rotation = hit.transform.rotation;
-        }
-
-        if (Input.GetKeyDown(KeyCode.H) && inHeftruck)
-        {
-            inHeftruck = false;
-            playerOrigin.transform.position = transform.position - new Vector3(2, 0, 0); // spawn speler naast heftruck, de speler stapt uit
-        }
 
         if(inHeftruck)
         {
             Wheel();
+            SteeringWheel();
         }
     }
 
@@ -50,7 +40,29 @@ public class heftruck : MonoBehaviour
         //heftruck.transform.Translate(heftruck.transform.forward * joystick);
     }
 
+    private void EnterHeftruck(InputAction.CallbackContext obj)
+    {
+        if (inHeftruck)
+        {
+            inHeftruck = false;
+            playerOrigin.transform.position = transform.position - new Vector3(2, 0, 0); // spawn speler naast heftruck, de speler stapt uit
+        }
+
+        Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 10);
+        if (hit.transform.gameObject.tag == "heftruck")
+        {
+            inHeftruck = true;
+            playerOrigin.transform.position = hit.transform.position;
+            playerOrigin.transform.rotation = hit.transform.rotation;
+        }
+    }
+
     void Wheel()
+    {
+
+    }
+
+    void SteeringWheel()
     {
 
     }
