@@ -4,20 +4,28 @@ using UnityEngine;
 
 public class magazijnWagen : MonoBehaviour
 {
+    OrderListManager orderListManager;
     public Transform palletLocation;
     public bool checkOrder;
+    public List<GameObject> items;
     // Start is called before the first frame update
     void Start()
     {
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "pallet")
-        {
-            other.transform.position = palletLocation.position;
+        if(other.tag != "pallet") {
+            items.Add(other.gameObject);
+        }
+        if (!checkOrder) {
+            StartCoroutine(WaitAndCheck());
             checkOrder = true;
         }
+    }
+    public IEnumerator WaitAndCheck() {
+        yield return new WaitForSeconds(5);
+        orderListManager.CheckOrder(items);
     }
 }

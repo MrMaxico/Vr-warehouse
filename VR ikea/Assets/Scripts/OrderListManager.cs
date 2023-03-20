@@ -65,13 +65,13 @@ public class OrderListManager : MonoBehaviour
             }
         }
     }
-    public void CheckOrder(List<GameObject> a) {
+    public void CheckOrder(List<GameObject> items) {
         for (int i = 0; i < itemsOrder.Count; i++) {
-            if(a.Exists(element => element == itemsOrder[i])) {
+            if(items.Exists(element => element == itemsOrder[i])) {
                 orders.transform.GetChild(i).GetChild(0).gameObject.SetActive(true);
             }
         }
-        List<GameObject> result = a.Except(itemsOrder).ToList();
+        List<GameObject> result = items.Except(itemsOrder).ToList();
     }
     //List.Remove(yourObject)
 }
