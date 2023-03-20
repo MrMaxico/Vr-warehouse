@@ -5513,6 +5513,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702149722}
   m_Mesh: {fileID: 1856150034111365774, guid: c9931ae52371bf64bb8e7a6addb2bc68, type: 3}
+--- !u!1 &713335801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4188968113307548362, guid: 6ceb50a2c233a294bac9dfdba526cb33,
+    type: 3}
+  m_PrefabInstance: {fileID: 1196291704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &725503684
 GameObject:
   m_ObjectHideFlags: 0
@@ -7940,6 +7946,10 @@ PrefabInstance:
       propertyPath: m_text
       value: A1a
       objectReference: {fileID: 0}
+    - target: {fileID: 358280439, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsOn
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 722291822, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_text
       value: A1b
@@ -7951,6 +7961,10 @@ PrefabInstance:
     - target: {fileID: 943278666, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_text
       value: bigGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024246863, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsOn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1736304492, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_text
@@ -7964,9 +7978,17 @@ PrefabInstance:
       propertyPath: m_text
       value: bigBrown
       objectReference: {fileID: 0}
+    - target: {fileID: 1810514731, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsOn
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1860059223, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_text
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931666384, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsOn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1938619667, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_text
@@ -9303,6 +9325,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1196291704}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1196291709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713335801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5000002, y: 0.05529642, z: 1.1000003}
+  m_Center: {x: 0, y: 1.1017957, z: -0}
 --- !u!1 &1196611598
 GameObject:
   m_ObjectHideFlags: 0
