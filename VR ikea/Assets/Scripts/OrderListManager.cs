@@ -23,7 +23,9 @@ public class OrderListManager : MonoBehaviour
     void Start()
     {
         for(int i = 0; i < itemsOrder.Count; i++) {
-            itemsOrder[i].name = orders.transform.GetChild(i).GetChild(3).GetComponent<TMP_Text>().text;
+            orders.transform.GetChild(i).GetChild(2).GetComponent<TMP_Text>().text = itemsOrder[i].GetComponent<ItemData>().itemName;
+            Debug.Log(itemsOrder[i].name);
+            orders.transform.GetChild(i).GetChild(3).GetComponent<TMP_Text>().text = itemsOrder[i].GetComponent<ItemData>().itemLocation;
         }
         //for (int i = 0; i < itemsOrder.Length; i++)
         //{
@@ -66,7 +68,7 @@ public class OrderListManager : MonoBehaviour
     public void CheckOrder(List<GameObject> a) {
         for (int i = 0; i < itemsOrder.Count; i++) {
             if(a.Exists(element => element == itemsOrder[i])) {
-                orders.transform.GetChild(i).GetChild(1).gameObject.SetActive(true);
+                orders.transform.GetChild(i).GetChild(0).gameObject.SetActive(true);
             }
         }
         List<GameObject> result = a.Except(itemsOrder).ToList();
