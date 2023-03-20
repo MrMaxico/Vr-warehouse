@@ -29,7 +29,7 @@ public class HeftruckJoystick : MonoBehaviour
             Debug.Log("Backward" + forwardBackwardTilt);
             if(canGoLower)
             {
-                forks.transform.Translate(-Vector3.up * (forwardBackwardTilt / 700));
+                forks.transform.Translate(-Vector3.up * (forwardBackwardTilt / 1400) * 2);
                 canGoHigher = true;
                 if(forks.transform.position.y < 0)
                 {
@@ -45,7 +45,7 @@ public class HeftruckJoystick : MonoBehaviour
 
             if (canGoHigher)
             {
-                forks.transform.Translate(Vector3.up * (forwardBackwardTilt / 700));
+                forks.transform.Translate(Vector3.up * (forwardBackwardTilt / 1400) * 2);
                 canGoLower = true;
                 if (forks.transform.position.y > 2)
                 {
