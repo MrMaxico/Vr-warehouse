@@ -13,7 +13,7 @@ public class Pallet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<ItemData>().size == "Medium")
+        if (other.GetComponent<ItemData>().size == "Small")
         {
             hasToBeFilled = true;
             for (int i = 0; i < bigItems.Length; i++)
@@ -40,7 +40,7 @@ public class Pallet : MonoBehaviour
         }
 
         //als er een grote item op de pallet wordt gelegd
-        if (other.GetComponent<ItemData>().size == "Big")
+        if (other.GetComponent<ItemData>().size == "Medium")
         {
             hasToBeFilled = true;
             for (int i = 0; i < bigItems.Length; i++)
