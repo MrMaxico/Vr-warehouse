@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using System;
+using TMPro;
 
 public class OrderListManager : MonoBehaviour
 {
-    public GameObject[] itemsOrder;
-    public GameObject[] correctItems;
+    public List<GameObject> itemsOrder;
+    public List<GameObject> correctItems;
     public bool isCompleted;
     public GameObject warehouseManager;
     public int itemValue;
@@ -15,10 +17,14 @@ public class OrderListManager : MonoBehaviour
     public GameObject pallet;
     public GameObject magazijnWagen;
     public GameObject particle;
+    public GameObject orders;
 
     // Start is called before the first frame update
     void Start()
     {
+        for(int i = 0; i < itemsOrder.Count; i++) {
+            itemsOrder[i].name = orders.transform.GetChild(i).GetChild(3).GetComponent<TMP_Text>().text;
+        }
         //for (int i = 0; i < itemsOrder.Length; i++)
         //{
             //itemNames[i].text = itemsOrder[i].GetComponent<ItemData>().itemName; //kijkt in scriptableObject voor naam item
@@ -30,8 +36,8 @@ public class OrderListManager : MonoBehaviour
         if (checkOrder) //pallet in truck, moet (if.other.tag pallet) worden een trigger
         {
             itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).Any();
-            correctItems = itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).ToArray<GameObject>();
-            if (correctItems.Length == itemsOrder.Length && pallet.GetComponent<Pallet>().palletItems.Count == itemsOrder.Length)
+            correctItems = itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).ToList<GameObject>();
+            if (correctItems.Count == itemsOrder.Count && pallet.GetComponent<Pallet>().palletItems.Count == itemsOrder.Count)
             {
                 print("allItemsCorrect");
                 GameObject particlePrefab = Instantiate(particle, magazijnWagen.GetComponent<magazijnWagen>().palletLocation.position, Quaternion.identity);
@@ -45,9 +51,9 @@ public class OrderListManager : MonoBehaviour
                 {
                     itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).Any();
 
-                    correctItems = itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).ToArray<GameObject>();
+                    correctItems = itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).ToList<GameObject>();
 
-                    for (int g = 0; g < correctItems.Length; g++)
+                    for (int g = 0; g < correctItems.Count; g++)
                     {
                         correctItems[g].GetComponent<Renderer>().material.color = Color.green;
                         magazijnWagen.GetComponent<magazijnWagen>().checkOrder = false;
@@ -57,9 +63,13 @@ public class OrderListManager : MonoBehaviour
             }
         }
     }
-
+    public void CheckOrder(List<GameObject> a) {
+        for (int i = 0; i < itemsOrder.Count; i++) {
+            if(a.Exists(element => element == itemsOrder[i])) {
+                orders.transform.GetChild(i).GetChild(1).gameObject.SetActive(true);
+            }
+        }
+        List<GameObject> result = a.Except(itemsOrder).ToList();
+    }
     //List.Remove(yourObject)
-    
-        
-    
 }

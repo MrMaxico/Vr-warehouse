@@ -5873,6 +5873,7 @@ MonoBehaviour:
   magazijnWagen: {fileID: 1685373898}
   particle: {fileID: 3810406416434546737, guid: c2e19b964f986b1478d872ea04c0a4c9,
     type: 3}
+  orders: {fileID: 0}
 --- !u!1001 &370660425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15972,6 +15973,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+--- !u!1 &992141445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1816786677, guid: ab8ca3c1797bac144b2134a69298d408,
+    type: 3}
+  m_PrefabInstance: {fileID: 992141444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &992320396
 GameObject:
   m_ObjectHideFlags: 0
@@ -19903,23 +19910,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsOrder:
-  - {fileID: 1506949204}
-  - {fileID: 925725075}
+  - {fileID: 101759592}
+  - {fileID: 1581971246}
   - {fileID: 1298292714}
   - {fileID: 1541434457}
   correctItems: []
   isCompleted: 0
   warehouseManager: {fileID: 0}
   itemValue: 0
-  itemNames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  itemNames: []
   pallet: {fileID: 610199061}
-  magazijnWagen: {fileID: 1685373898}
+  magazijnWagen: {fileID: 0}
   particle: {fileID: 3810406416434546737, guid: c2e19b964f986b1478d872ea04c0a4c9,
     type: 3}
+  orders: {fileID: 992141445}
 --- !u!1 &1285079226
 GameObject:
   m_ObjectHideFlags: 0
