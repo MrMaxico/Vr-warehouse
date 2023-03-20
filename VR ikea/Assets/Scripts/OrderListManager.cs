@@ -13,6 +13,8 @@ public class OrderListManager : MonoBehaviour
     public int itemValue;
     public Text[] itemNames;
     public GameObject pallet;
+    public GameObject magazijnWagen;
+    public GameObject particle;
 
     // Start is called before the first frame update
     void Start()
@@ -24,13 +26,15 @@ public class OrderListManager : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K)) //pallet in truck, moet (if.other.tag pallet) worden een trigger
+        bool checkOrder = magazijnWagen.GetComponent<magazijnWagen>().checkOrder;
+        if (checkOrder) //pallet in truck, moet (if.other.tag pallet) worden een trigger
         {
             itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).Any();
             correctItems = itemsOrder.Intersect(pallet.GetComponent<Pallet>().palletItems).ToArray<GameObject>();
             if (correctItems.Length == itemsOrder.Length && pallet.GetComponent<Pallet>().palletItems.Count == itemsOrder.Length)
             {
                 print("allItemsCorrect");
+                Instantiate(particle, magazijnWagen.GetComponent<magazijnWagen>().palletLocation.position, Quaternion.identity);
                 //alle items zitten op de pallet en gaan in de bus
             }
 
@@ -45,6 +49,7 @@ public class OrderListManager : MonoBehaviour
                     for (int g = 0; g < correctItems.Length; g++)
                     {
                         correctItems[g].GetComponent<Renderer>().material.color = Color.green;
+                        magazijnWagen.GetComponent<magazijnWagen>().checkOrder = false;
                         // de correcte items worden groen maar de order is niet compleet
                     }
                 }
