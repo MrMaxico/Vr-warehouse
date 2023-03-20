@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 465195217235538844}
   - component: {fileID: 3592587176174943289}
   - component: {fileID: 1603167433656830195}
-  - component: {fileID: 4838804155050158}
+  - component: {fileID: 1870310438218645612}
   m_Layer: 0
   m_Name: vloer
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4838804155050158
+--- !u!64 &1870310438218645612
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
