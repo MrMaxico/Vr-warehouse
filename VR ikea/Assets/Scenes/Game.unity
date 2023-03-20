@@ -9311,7 +9311,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584482739}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10007,7 +10007,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611639262}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -15551,6 +15551,10 @@ PrefabInstance:
       propertyPath: m_IsOn
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 365752780, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 375555650, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_fontSize
       value: 34.75
@@ -15563,9 +15567,21 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 512366733, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521975785, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 722291822, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_text
       value: A1b
+      objectReference: {fileID: 0}
+    - target: {fileID: 894474840, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 943278665, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_SizeDelta.x
@@ -15614,6 +15630,10 @@ PrefabInstance:
     - target: {fileID: 1381867317, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_enableAutoSizing
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477941087, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1498984018, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
       propertyPath: m_IsOn
@@ -15696,22 +15716,37 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1159196275898423721, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1903837183144069389, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2155664565206854541, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2726589801790057287, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075449862827316507, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5252805738844785047, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134543421998985310, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -15729,7 +15764,7 @@ PrefabInstance:
     - target: {fileID: 6654701212179527671, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6757536649183777088, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
@@ -15799,6 +15834,11 @@ PrefabInstance:
     - target: {fileID: 6757536649183777088, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200758224902054040, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7491782585238979260, guid: ab8ca3c1797bac144b2134a69298d408,
@@ -17728,7 +17768,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157453842}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -18268,7 +18308,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190520188}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -20993,7 +21033,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376930487}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -24885,7 +24925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Kleine bruine
   itemLocation: C1b
-  size: Small
+  size: Medium
   palletLocation: {fileID: 0}
 --- !u!1 &1583464549
 GameObject:
@@ -26674,8 +26714,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b79e117d16ea160478bf4542c793ad3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  orderListManager: {fileID: 1282149829}
   palletLocation: {fileID: 1357021249}
   checkOrder: 0
+  items: []
 --- !u!4 &1685373902 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 824b045cfb5412444a2d59824cb98223,
@@ -29045,7 +29087,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832612126}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -30818,7 +30860,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902858693}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -33516,7 +33558,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080485613}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

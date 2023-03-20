@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class magazijnWagen : MonoBehaviour
 {
-    OrderListManager orderListManager;
+    public OrderListManager orderListManager;
     public Transform palletLocation;
     public bool checkOrder;
     public List<GameObject> items;
