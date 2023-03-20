@@ -19,10 +19,10 @@ public class OrderListManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < itemsOrder.Length; i++)
-        {
-            itemNames[i].text = itemsOrder[i].GetComponent<ItemData>().itemName; //kijkt in scriptableObject voor naam item
-        }
+        //for (int i = 0; i < itemsOrder.Length; i++)
+        //{
+            //itemNames[i].text = itemsOrder[i].GetComponent<ItemData>().itemName; //kijkt in scriptableObject voor naam item
+        //}
     }
     void Update()
     {
@@ -34,7 +34,8 @@ public class OrderListManager : MonoBehaviour
             if (correctItems.Length == itemsOrder.Length && pallet.GetComponent<Pallet>().palletItems.Count == itemsOrder.Length)
             {
                 print("allItemsCorrect");
-                Instantiate(particle, magazijnWagen.GetComponent<magazijnWagen>().palletLocation.position, Quaternion.identity);
+                GameObject particlePrefab = Instantiate(particle, magazijnWagen.GetComponent<magazijnWagen>().palletLocation.position, Quaternion.identity);
+                Destroy(particlePrefab, 1);
                 //alle items zitten op de pallet en gaan in de bus
             }
 
