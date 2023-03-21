@@ -3496,7 +3496,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: vloer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1870310438218645612, guid: 5187a1b086aa21748a670cb205f70ce1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5187a1b086aa21748a670cb205f70ce1, type: 3}
 --- !u!4 &177842618 stripped
 Transform:
@@ -9032,6 +9033,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 333852818b6ef02469e5b7f6fd28f538, type: 3}
+--- !u!1 &561660847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 954591843079203110, guid: 5187a1b086aa21748a670cb205f70ce1,
+    type: 3}
+  m_PrefabInstance: {fileID: 177842617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &561660851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561660847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.800001, y: 0.13935325, z: 54.5}
+  m_Center: {x: 4.4933405, y: -0.0696723, z: 0.176857}
 --- !u!1001 &569102634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10437,6 +10457,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 0.14400001, z: 1.2}
   m_Center: {x: 0, y: 0.072000004, z: 0}
+--- !u!1 &660238880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660238881}
+  m_Layer: 0
+  m_Name: locationPallet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660238881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660238880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07, y: 1.63, z: -8.38}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811988019}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673446341
 GameObject:
   m_ObjectHideFlags: 0
@@ -12563,6 +12614,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab7b18cf3d1a7b24eb35dbc8ebce5709, type: 3}
+--- !u!4 &811988019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400008, guid: b70eb1cf1be37564f8063fba2095584b,
+    type: 3}
+  m_PrefabInstance: {fileID: 30852590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &812770409
 GameObject:
   m_ObjectHideFlags: 0
@@ -19801,6 +19858,7 @@ MonoBehaviour:
   itemNames: []
   pallet: {fileID: 610199061}
   magazijnWagen: {fileID: 1685373898}
+  magazijnLocation: {fileID: 660238881}
   particle: {fileID: 3810406416434546737, guid: c2e19b964f986b1478d872ea04c0a4c9,
     type: 3}
   orders: {fileID: 992141445}

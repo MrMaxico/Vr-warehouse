@@ -16,6 +16,7 @@ public class OrderListManager : MonoBehaviour
     public Text[] itemNames;
     public GameObject pallet;
     public GameObject magazijnWagen;
+    public Transform magazijnLocation;
     public GameObject particle;
     public GameObject orders;
 
@@ -57,7 +58,7 @@ public class OrderListManager : MonoBehaviour
 
                     for (int g = 0; g < correctItems.Count; g++)
                     {
-                        correctItems[g].GetComponent<Renderer>().material.color = Color.green;
+                        //correctItems[g].GetComponent<Renderer>().material.color = Color.green;
                         magazijnWagen.GetComponent<magazijnWagen>().checkOrder = false;
                         // de correcte items worden groen maar de order is niet compleet
                     }
@@ -69,6 +70,7 @@ public class OrderListManager : MonoBehaviour
         for (int i = 0; i < itemsOrder.Count; i++) {
             if(items.Exists(element => element == itemsOrder[i])) {
                 orders.transform.GetChild(i).GetChild(0).gameObject.SetActive(true);
+                Instantiate(particle, magazijnLocation.transform.position, Quaternion.identity);
             }
         }
         List<GameObject> result = items.Except(itemsOrder).ToList();
