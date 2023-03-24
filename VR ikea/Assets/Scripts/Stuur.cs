@@ -1,28 +1,77 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 
-public class Stuur : MonoBehaviour
+public class Stuur : XRBaseInteractable
 {
+    private float currentAngle;
+    public Transform wheelTransform;
+    public UnityEvent<float> OnWheelRotated;
 
-    // Start is called before the first frame update
-    void Start()
+    protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
-        
+        base.OnSelectEntered(args);
+        currentAngle = FindWheelAngle();
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void OnSelectExited(SelectExitEventArgs args)
     {
-        
+        base.OnSelectExited(args);
+        currentAngle = FindWheelAngle();
     }
 
-    private void OnTriggerStay(Collider other)
+    public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase)
     {
-        if (other.tag == ("playerLeftHand"))
+        base.ProcessInteractable(updatePhase);
+
+        if(updatePhase == XRInteractionUpdateOrder.UpdatePhase.Dynamic)
         {
-            print("wauw");
-            transform.LookAt(other.transform.position, transform.up);
+            if(isSelected)
+            {
+                RotateWheel();
+            }
         }
+    }
+
+    private void RotateWheel()
+    {
+        float totalAngle = FindWheelAngle();
+
+        float angleDifference = currentAngle - totalAngle;
+        wheelTransform.Rotate(transform.forward, -angleDifference);
+
+        currentAngle = totalAngle;
+        OnWheelRotated?.Invoke(angleDifference);
+    }
+
+    private float FindWheelAngle()
+    {
+        float totalAngle = 0;
+
+        foreach(IXRSelectInteractor interactor in interactorsSelecting)
+        {
+            Vector2 direction = FindLocalPoint(interactor.transform.position);
+            totalAngle += ConvertToAngle(direction) * FindRotationSensitivity();
+        }
+
+        return totalAngle;
+    }
+
+    private Vector2 FindLocalPoint(Vector3 position)
+    {
+        return transform.InverseTransformPoint(position).normalized;
+    }
+
+    private float ConvertToAngle(Vector2 direction)
+    {
+        return Vector2.SignedAngle(transform.up, direction);
+    }
+
+    private float FindRotationSensitivity()
+    {
+        return 1.0f / interactorsSelecting.Count;
     }
 }
