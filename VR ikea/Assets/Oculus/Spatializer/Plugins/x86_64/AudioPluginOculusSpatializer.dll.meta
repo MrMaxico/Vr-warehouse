@@ -12,27 +12,56 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
+<<<<<<< Updated upstream
       Any: 
     second:
       enabled: 1
+=======
+      : Editor
+    second:
+      enabled: 0
+      settings:
+        CPU: X86_64
+        OS: Windows
+  - first:
+      Any: 
+    second:
+      enabled: 0
+>>>>>>> Stashed changes
       settings: {}
   - first:
       Editor: Editor
     second:
+<<<<<<< Updated upstream
       enabled: 0
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
+=======
+      enabled: 1
+      settings:
+        CPU: X86_64
+        DefaultValueInitialized: true
+        OS: Windows
+>>>>>>> Stashed changes
   - first:
       Standalone: Linux64
     second:
       enabled: 1
       settings:
+<<<<<<< Updated upstream
         CPU: x86_64
   - first:
       Standalone: OSXUniversal
     second:
       enabled: 1
+=======
+        CPU: AnyCPU
+  - first:
+      Standalone: OSXUniversal
+    second:
+      enabled: 0
+>>>>>>> Stashed changes
       settings:
         CPU: x86_64
   - first:
