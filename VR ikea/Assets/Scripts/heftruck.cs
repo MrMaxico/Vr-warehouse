@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR;
-using UnityEngine.XR.Interaction;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class heftruck : MonoBehaviour
 {
@@ -12,23 +10,22 @@ public class heftruck : MonoBehaviour
     public GameObject playerCamera;
     private RaycastHit hit;
     private bool inHeftruck;
-
-    public InputActionReference gas;
     public InputActionReference inHeftruckButton;
 
     private void Start()
     {
-        gas.action.performed += GasAndBreak;
         inHeftruckButton.action.performed += EnterHeftruck;
     }
 
     void Update()
     {
+        if(OVRInput.GetDown(OVRInput.Button.One))
+        {
 
-        if(inHeftruck)
+        }
+        if (inHeftruck)
         {
             Wheel();
-            SteeringWheel();
         }
     }
 
@@ -61,11 +58,4 @@ public class heftruck : MonoBehaviour
     {
 
     }
-
-    void SteeringWheel()
-    {
-
-    }
-
-
 }
