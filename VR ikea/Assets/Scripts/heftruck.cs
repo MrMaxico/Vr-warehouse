@@ -11,6 +11,7 @@ public class heftruck : MonoBehaviour
     private RaycastHit hit;
     private bool inHeftruck;
     public InputActionReference inHeftruckButton;
+    public float movementAxis;
 
     private void Start()
     {
@@ -19,22 +20,22 @@ public class heftruck : MonoBehaviour
 
     void Update()
     {
-        if(OVRInput.GetDown(OVRInput.Button.One))
-        {
-
-        }
+        
+        
         if (inHeftruck)
         {
             Wheel();
+            GasAndBreak();
         }
     }
 
-    private void GasAndBreak(InputAction.CallbackContext obj)
+    private void GasAndBreak()
     {
         //met de joystick van oculus wordt de gas en de rem bepaald
-
+        Vector2 axis = OVRInput.Get(OVRInput.RawAxis2D.LThumbstick);
+        movementAxis = axis.x;
         // float joystick = -1, 0 of 1
-        //heftruck.transform.Translate(heftruck.transform.forward * joystick);
+        transform.Translate(transform.forward * movementAxis);
     }
 
     private void EnterHeftruck(InputAction.CallbackContext obj)
