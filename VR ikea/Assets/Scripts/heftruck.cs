@@ -11,6 +11,7 @@ public class heftruck : MonoBehaviour
     private RaycastHit hit;
     private bool inHeftruck;
     public InputActionReference inHeftruckButton;
+    public GameObject wheel;
 
     private void Start()
     {
@@ -30,9 +31,9 @@ public class heftruck : MonoBehaviour
     private void GasAndBreak()
     {
         //met de joystick van oculus wordt de gas en de rem bepaald
-        float verticalAxis = Input.GetAxis("Oculus_CrossPlatform_PrimaryThumbstickHorizontal");
+        float verticalAxis = Input.GetAxis("Oculus_CrossPlatform_PrimaryThumbstickVertical");
         // float joystick = -1, 0 of 1
-        transform.Translate(transform.forward * verticalAxis);
+        transform.Translate(wheel.transform.forward * verticalAxis);
     }
 
     private void EnterHeftruck(InputAction.CallbackContext obj)
