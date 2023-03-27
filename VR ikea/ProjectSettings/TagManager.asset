@@ -6,6 +6,7 @@ TagManager:
   tags:
   - playerRightHand
   - pallet
+  - heftruck
   layers:
   - Default
   - TransparentFX

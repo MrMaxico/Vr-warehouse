@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using Oculus;
 
 public class heftruck : MonoBehaviour
 {
@@ -20,8 +21,6 @@ public class heftruck : MonoBehaviour
 
     void Update()
     {
-        
-        
         if (inHeftruck)
         {
             Wheel();
