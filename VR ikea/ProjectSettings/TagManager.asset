@@ -6,6 +6,7 @@ TagManager:
   tags:
   - playerRightHand
   - pallet
+  - forklift
   layers:
   - Default
   - TransparentFX

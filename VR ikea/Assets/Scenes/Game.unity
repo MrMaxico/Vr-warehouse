@@ -3687,6 +3687,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194613114}
   m_CullTransparentMesh: 1
+--- !u!1 &210239036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210239037}
+  - component: {fileID: 210239038}
+  m_Layer: 0
+  m_Name: forkliftTrigger
+  m_TagString: forklift
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210239037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210239036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.43, y: 3.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1415885928}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &210239038
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210239036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.9449697, y: 4.727349, z: 2.1232047}
+  m_Center: {x: 0.48412496, y: -0.33992156, z: -0.026871817}
 --- !u!4 &211126096 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4698697145138877239, guid: 33fbb668e0be399409057f01a4a8df4b,
@@ -16711,12 +16756,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
---- !u!1 &992141445 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1816786677, guid: ab8ca3c1797bac144b2134a69298d408,
-    type: 3}
-  m_PrefabInstance: {fileID: 992141444}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &992320396
 GameObject:
   m_ObjectHideFlags: 0
@@ -21099,7 +21138,7 @@ MonoBehaviour:
   magazijnLocation: {fileID: 660238881}
   particle: {fileID: 3810406416434546737, guid: c2e19b964f986b1478d872ea04c0a4c9,
     type: 3}
-  orders: {fileID: 992141445}
+  orders: {fileID: 0}
 --- !u!1 &1285079226
 GameObject:
   m_ObjectHideFlags: 0
@@ -23025,6 +23064,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1016729139}
+  - {fileID: 210239037}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30660,6 +30700,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817222571}
   m_Mesh: {fileID: 5484078256944516197, guid: c9931ae52371bf64bb8e7a6addb2bc68, type: 3}
+--- !u!1 &1825427610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9014170785475729474, guid: 895f6f3c2d334633b5800312285058d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 258449513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1825427615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825427610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08424516, y: 0.13500023, z: 0.14381409}
+  m_Center: {x: 0.0069592968, y: -0.018619418, z: -0.026763916}
 --- !u!1001 &1825881907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32989,6 +33048,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 0.14400001, z: 1.2}
   m_Center: {x: 0, y: 0.072000004, z: 0}
+--- !u!1 &1920962245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9014170783705847997, guid: 895f6f3c2d334633b5800312285058d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 258449513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1920962250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920962245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.096986234, y: 0.12849224, z: 0.12310028}
+  m_Center: {x: -0.00008245744, y: 0.005342424, z: -0.020646095}
 --- !u!1001 &1925848835
 PrefabInstance:
   m_ObjectHideFlags: 0
