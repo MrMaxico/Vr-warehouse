@@ -16711,6 +16711,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab8ca3c1797bac144b2134a69298d408, type: 3}
+--- !u!1 &992141445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1816786677, guid: ab8ca3c1797bac144b2134a69298d408,
+    type: 3}
+  m_PrefabInstance: {fileID: 992141444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &992320396
 GameObject:
   m_ObjectHideFlags: 0
@@ -19581,7 +19587,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1c0d0aeb583f516478d3f9471ae5fdd0, type: 2}
+      objectReference: {fileID: 2100000, guid: cd9021a8e865f4c4c9e671047b9b4850, type: 2}
     - target: {fileID: 3560628642068439152, guid: 6ceb50a2c233a294bac9dfdba526cb33,
         type: 3}
       propertyPath: m_RootOrder
@@ -21098,7 +21104,7 @@ MonoBehaviour:
   magazijnLocation: {fileID: 660238881}
   particle: {fileID: 3810406416434546737, guid: c2e19b964f986b1478d872ea04c0a4c9,
     type: 3}
-  orders: {fileID: 0}
+  orders: {fileID: 992141445}
 --- !u!1 &1285079226
 GameObject:
   m_ObjectHideFlags: 0
@@ -22990,7 +22996,7 @@ GameObject:
   - component: {fileID: 1415885929}
   m_Layer: 0
   m_Name: Forklift
-  m_TagString: heftruck
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23011,7 +23017,6 @@ MonoBehaviour:
   playerCamera: {fileID: 258449515}
   inHeftruckButton: {fileID: 6367065124402601752, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  movementAxis: 0
 --- !u!4 &1415885928
 Transform:
   m_ObjectHideFlags: 0

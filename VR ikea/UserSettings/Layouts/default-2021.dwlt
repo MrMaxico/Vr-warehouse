@@ -401,10 +401,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 162.79999}
-      m_SelectedIDs: fe270000
+      scrollPos: {x: 0, y: 226.79999}
+      m_SelectedIDs: fcc8feff
       m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffff
+      m_ExpandedIDs: 28fbffffec810000128200003a820000aa83000086860000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -838,22 +838,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Oculus/VR/Plugins/1.82.0/Win64OpenXR
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Oculus/VR/Plugins/1.82.0/Win64OpenXR
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lusse\OneDrive\Documenten\GitHub\Vr-warehouse\VR ikea
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 621.4}
-    m_SelectedIDs: ec940000
-    m_LastClickedID: 38124
-    m_ExpandedIDs: 00000000e2940000e4940000e6940000e8940000ea940000ec940000ee940000f0940000f2940000f4940000f6940000f8940000fa940000fc940000fe94000088950000e695000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 365.40002}
+    m_SelectedIDs: 0a970000
+    m_LastClickedID: 38666
+    m_ExpandedIDs: 00000000e0930000e6930000e8930000ea930000ec930000ee930000f0930000f2930000f4930000f69300005c940000d0940000dc940000469500000c9700000e970000a682010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -881,7 +881,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2940000e4940000e6940000e8940000ea940000ec940000ee940000f0940000f2940000f4940000f6940000f8940000fa940000fc940000fe940000
+    m_ExpandedIDs: 00000000e0930000e2930000e4930000e6930000e8930000ea930000ec930000ee930000f0930000f2930000f4930000f6930000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

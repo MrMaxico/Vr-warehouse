@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Stuur : XRBaseInteractable
 {
-    public float currentAngle;
+    private float currentAngle;
     public Transform wheelTransform;
     public UnityEvent<float> OnWheelRotated;
 
