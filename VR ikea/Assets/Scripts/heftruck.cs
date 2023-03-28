@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using UnityEngine.XR;
 
 public class heftruck : MonoBehaviour
 {
@@ -25,6 +26,8 @@ public class heftruck : MonoBehaviour
         {
             Wheel();
             GasAndBreak();
+            playerOrigin.transform.position = hit.transform.position;
+            playerOrigin.transform.rotation = hit.transform.rotation;
         }
     }
 
@@ -48,8 +51,6 @@ public class heftruck : MonoBehaviour
         if (hit.transform.gameObject.tag == "forklift")
         {
             inHeftruck = true;
-            playerOrigin.transform.position = hit.transform.position;
-            playerOrigin.transform.rotation = hit.transform.rotation;
         }
     }
 
