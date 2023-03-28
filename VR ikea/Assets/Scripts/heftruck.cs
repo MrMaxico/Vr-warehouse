@@ -9,11 +9,11 @@ public class heftruck : MonoBehaviour
 {
     public GameObject playerOrigin;
     public GameObject playerCamera;
-    private RaycastHit hit;
     private bool inHeftruck;
     public InputActionReference inHeftruckButton;
     public GameObject wheel;
-
+    public Transform trigger;
+    private RaycastHit hit;
     private void Start()
     {
         inHeftruckButton.action.performed += EnterHeftruck;
@@ -25,18 +25,23 @@ public class heftruck : MonoBehaviour
         if (inHeftruck)
         {
             Wheel();
-            GasAndBreak();
-            playerOrigin.transform.position = hit.transform.position;
-            playerOrigin.transform.rotation = hit.transform.rotation;
+            playerOrigin.transform.position = trigger.position;
+            playerOrigin.transform.rotation = trigger.rotation;
         }
-    }
 
-    private void GasAndBreak()
-    {
-        //met de joystick van oculus wordt de gas en de rem bepaald
-        float verticalAxis = Input.GetAxis("Oculus_CrossPlatform_PrimaryThumbstickVertical");
-        // float joystick = -1, 0 of 1
-        transform.Translate(wheel.transform.forward * verticalAxis);
+        //test
+        if (inHeftruck && Input.GetKeyDown(KeyCode.H))
+        {
+            inHeftruck = false;
+            playerOrigin.transform.position = transform.position - new Vector3(2, 0, 0); // spawn speler naast heftruck, de speler stapt uit
+        }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            print("poep");
+            inHeftruck = true;
+        }
+        //test
     }
 
     private void EnterHeftruck(InputAction.CallbackContext obj)

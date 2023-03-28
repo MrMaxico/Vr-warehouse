@@ -4,73 +4,58 @@ using UnityEngine;
 
 public class HeftruckJoystick : MonoBehaviour
 {
-    public Transform topJoystick;
-
-    public float forwardBackwardTilt = 0;
-
-    public float sideToSideTilt = 0;
-
+    public Transform topJoystickFork;
+    public float forwardBackwardTiltFork = 0;
     public GameObject forks;
-    private bool canGoHigher;
-    private bool canGoLower;
+    private bool forkCanGoHigher;
+    private bool forkCanGoLower;
+
 
     private void Start()
     {
-        canGoHigher = true;
-        canGoLower = true;
+        forkCanGoHigher = true;
+        forkCanGoLower = true;
     }
 
     void Update()
     {
-        forwardBackwardTilt = topJoystick.rotation.eulerAngles.x;
-        if (forwardBackwardTilt < 355 && forwardBackwardTilt > 290)
+        Forklift();
+    }
+
+    public void Forklift()
+    {
+        forwardBackwardTiltFork = topJoystickFork.rotation.eulerAngles.x;
+        if (forwardBackwardTiltFork < 355 && forwardBackwardTiltFork > 290)
         {
-            forwardBackwardTilt = Mathf.Abs(forwardBackwardTilt - 360);
-            Debug.Log("Backward" + forwardBackwardTilt);
-            if(canGoLower)
+            forwardBackwardTiltFork = Mathf.Abs(forwardBackwardTiltFork - 360);
+            Debug.Log("Backward" + forwardBackwardTiltFork);
+            if (forkCanGoLower)
             {
-                forks.transform.Translate(-Vector3.up * (forwardBackwardTilt / 1400) * 2);
-                canGoHigher = true;
-                if(forks.transform.position.y < 0)
+                forks.transform.Translate(-Vector3.up * (forwardBackwardTiltFork / 1400) * 2);
+                forkCanGoHigher = true;
+                if (forks.transform.position.y < 0)
                 {
                     print("teLaag");
-                    canGoLower = false;
+                    forkCanGoLower = false;
                 }
             }
         }
 
-        else if (forwardBackwardTilt > 5 && forwardBackwardTilt < 74)
+        else if (forwardBackwardTiltFork > 5 && forwardBackwardTiltFork < 74)
         {
-            Debug.Log("Forward" + forwardBackwardTilt);
+            Debug.Log("Forward" + forwardBackwardTiltFork);
 
-            if (canGoHigher)
+            if (forkCanGoHigher)
             {
-                forks.transform.Translate(Vector3.up * (forwardBackwardTilt / 1400) * 2);
-                canGoLower = true;
+                forks.transform.Translate(Vector3.up * (forwardBackwardTiltFork / 1400) * 2);
+                forkCanGoLower = true;
                 if (forks.transform.position.y > 2)
                 {
                     print("teHoog");
-                    canGoHigher = false;
+                    forkCanGoHigher = false;
                 }
             }
         }
-
-        /*
-        sideToSideTilt = topJoystick.rotation.eulerAngles.z;
-        if (sideToSideTilt < 355 && sideToSideTilt > 290)
-        {
-            sideToSideTilt = Mathf.Abs(sideToSideTilt - 360);
-            Debug.Log("Right" + sideToSideTilt);
-
-        }
-
-        else if (sideToSideTilt > 5 && sideToSideTilt < 74)
-        {
-            Debug.Log("Left" + sideToSideTilt);
-        }
-        */
-
-
     }
 
     private void OnTriggerStay(Collider other)
