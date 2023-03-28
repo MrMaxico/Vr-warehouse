@@ -35,7 +35,7 @@ public class wheel : MonoBehaviour
                 transform.Rotate(Vector3.up, deltaAngle, Space.Self);
                 for (int i = 0; i < wheels.Length; i++)
                 {
-                    wheels[i].transform.Rotate(Vector3.back, 0, Space.Self - 90);
+                    wheels[i].transform.Rotate(0, 0, -transform.rotation.y);
                 }
             }
         }
