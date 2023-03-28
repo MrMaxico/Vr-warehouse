@@ -27,13 +27,13 @@ public class GasJoystick : MonoBehaviour
             {
                 forwardBackwardTiltGas = Mathf.Abs(forwardBackwardTiltGas - 360);
                 Debug.Log("Backward" + forwardBackwardTiltGas);
-                speed = forwardBackwardTiltGas / 1400;
+                speed = -forwardBackwardTiltGas / 1400;
             }
 
             else if (forwardBackwardTiltGas > 5 && forwardBackwardTiltGas < 74)
             {
                 Debug.Log("Forward" + forwardBackwardTiltGas);
-                speed = -forwardBackwardTiltGas / 1400;
+                speed = forwardBackwardTiltGas / 1400;
 
             }
         }
