@@ -24,7 +24,6 @@ public class heftruck : MonoBehaviour
 
         if (inHeftruck)
         {
-            Wheel();
             playerOrigin.transform.position = trigger.position;
             playerOrigin.transform.rotation = trigger.rotation;
         }
@@ -57,10 +56,5 @@ public class heftruck : MonoBehaviour
         {
             inHeftruck = true;
         }
-    }
-
-    void Wheel()
-    {
-
     }
 }

@@ -11,7 +11,6 @@ public class wheel : MonoBehaviour
     private bool holdingWheel;
 
     public GameObject[] wheels;
-    public GameObject middleWheel;
 
     void Start()
     {
@@ -33,9 +32,11 @@ public class wheel : MonoBehaviour
                 prevAngle = angle;
 
                 transform.Rotate(Vector3.up, deltaAngle, Space.Self);
+                float wheelRotation = -transform.rotation.y;
+                wheelRotation = Mathf.Clamp(wheelRotation, -50, 50);
                 for (int i = 0; i < wheels.Length; i++)
                 {
-                    wheels[i].transform.Rotate(0, 0, -transform.rotation.y);
+                    wheels[i].transform.Rotate(0, 0, wheelRotation);
                 }
             }
         }
