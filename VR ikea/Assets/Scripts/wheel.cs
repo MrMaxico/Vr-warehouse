@@ -19,7 +19,18 @@ public class wheel : MonoBehaviour
     }
 
     void Update()
-    { 
+    {
+
+        Vector3 rotation = wheels[0].transform.rotation.eulerAngles;
+        float zRotation = rotation.z;
+
+        // Clamp the z rotation between the min and max values
+        zRotation = Mathf.Clamp(zRotation, -50, 50);
+
+        // Set the new rotation
+        wheels[0].transform.rotation = Quaternion.Euler(rotation.x, rotation.y, zRotation);
+
+
         if (holdingWheel)
         {
             Vector3 handDir = handPosition.position - transform.position;
@@ -36,13 +47,11 @@ public class wheel : MonoBehaviour
                 wheelRotation = wheels[1].transform.rotation.z;
                 for (int i = 0; i < wheels.Length; i++)
                 {
-                    if(wheels[1].transform.rotation.z > -0.5f && wheels[1].transform.rotation.z < 0.5f)
-                    {
-                        wheels[i].transform.Rotate(0, 0, -transform.rotation.y);
-                    }
+                    wheels[i].transform.Rotate(0, 0, -transform.rotation.y);
                 }
             }
         }
+        
     }
 
     private void OnTriggerEnter(Collider other)
