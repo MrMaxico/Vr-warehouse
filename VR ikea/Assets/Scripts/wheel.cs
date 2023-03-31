@@ -11,7 +11,6 @@ public class wheel : MonoBehaviour
     private bool holdingWheel;
 
     public GameObject[] wheels;
-    public float wheelRotation;
 
     void Start()
     {
@@ -20,15 +19,17 @@ public class wheel : MonoBehaviour
 
     void Update()
     {
+        for (int i = 0; i < wheels.Length; i++)
+        {
+            Vector3 rotation = wheels[i].transform.rotation.eulerAngles;
+            float yRotation = rotation.y;
 
-        Vector3 rotation = wheels[0].transform.rotation.eulerAngles;
-        float zRotation = rotation.z;
+            yRotation = Mathf.Clamp(yRotation, -50, 50);
 
-        // Clamp the z rotation between the min and max values
-        zRotation = Mathf.Clamp(zRotation, -50, 50);
+            wheels[i].transform.rotation = Quaternion.Euler(rotation.x, yRotation, rotation.z);
+        }
+        
 
-        // Set the new rotation
-        wheels[0].transform.rotation = Quaternion.Euler(rotation.x, rotation.y, zRotation);
 
 
         if (holdingWheel)
@@ -44,7 +45,6 @@ public class wheel : MonoBehaviour
                 prevAngle = angle;
 
                 transform.Rotate(Vector3.up, deltaAngle, Space.Self);
-                wheelRotation = wheels[1].transform.rotation.z;
                 for (int i = 0; i < wheels.Length; i++)
                 {
                     wheels[i].transform.Rotate(0, 0, -transform.rotation.y);
