@@ -37,7 +37,7 @@ public class heftruck : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.H))
         {
-            print("poep");
+            print("hoi");
             inHeftruck = true;
         }
         //test

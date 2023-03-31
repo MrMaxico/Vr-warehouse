@@ -47,7 +47,7 @@ public class wheel : MonoBehaviour
                 transform.Rotate(Vector3.up, deltaAngle, Space.Self);
                 for (int i = 0; i < wheels.Length; i++)
                 {
-                    wheels[i].transform.Rotate(0, 0, -transform.rotation.y);
+                    wheels[i].transform.rotation = Quaternion.Euler(90, 0, -transform.rotation.eulerAngles.y);
                 }
             }
         }
