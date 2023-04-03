@@ -42,7 +42,7 @@ public class GasJoystick : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == ("playerRightHand"))
+        if (other.tag == ("playerLeftHand"))
         {
             print("wauw");
             transform.LookAt(other.transform.position, transform.up);
@@ -52,7 +52,7 @@ public class GasJoystick : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == ("playerRightHand"))
+        if (other.tag == ("playerLeftHand"))
         {
             holdingStick = false;
         }
