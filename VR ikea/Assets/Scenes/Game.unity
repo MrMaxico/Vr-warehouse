@@ -15343,7 +15343,6 @@ MonoBehaviour:
   handPosition: {fileID: 0}
   wheelRadius: 1
   wheels: []
-  wheelRotation: 0
 --- !u!1001 &584887541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22138,7 +22137,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -26811,6 +26810,8 @@ Transform:
   m_Children:
   - {fileID: 1879241521}
   - {fileID: 170014129}
+  - {fileID: 1792434595}
+  - {fileID: 2106080254}
   - {fileID: 177842618}
   - {fileID: 269503163}
   - {fileID: 952534509}
@@ -26819,8 +26820,6 @@ Transform:
   - {fileID: 1196291705}
   - {fileID: 384233489}
   - {fileID: 1298834308}
-  - {fileID: 1792434595}
-  - {fileID: 2106080254}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27496,7 +27495,6 @@ MonoBehaviour:
   wheels:
   - {fileID: 1229904726}
   - {fileID: 1363135961}
-  wheelRotation: 0
 --- !u!65 &1008844897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49165,7 +49163,7 @@ PrefabInstance:
     - target: {fileID: 2028993275018854969, guid: ae363f63ea08ce24ba24609044abd6a4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2028993275018854969, guid: ae363f63ea08ce24ba24609044abd6a4,
         type: 3}
