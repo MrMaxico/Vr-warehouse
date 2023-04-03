@@ -22,7 +22,7 @@ public class WarehouseManager : MonoBehaviour
 
     public void LoadLevel(int num) {
         if(levelCounter == num) {
-            SceneManager.LoadScene(num);
+            SceneManager.LoadScene("Level" + num);
         }
     }
 }
