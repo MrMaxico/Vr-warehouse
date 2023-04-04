@@ -10,8 +10,11 @@ public class GasJoystick : MonoBehaviour
     public GameObject wheel;
     private bool holdingStick;
     private float speed;
-    public UnityEngine.XR.InputDevice device1;
-    private float triggerValue;
+    public UnityEngine.XR.InputDevice deviceL;
+    public UnityEngine.XR.InputDevice deviceR;
+    private float triggerLeftValue;
+    private float triggerRightValue;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,33 +24,60 @@ public class GasJoystick : MonoBehaviour
 
     void Update()
     {
-        heftruck.transform.Translate(wheel.transform.right * triggerValue);
+        //left gas forward
+        heftruck.transform.Translate(wheel.transform.right * triggerLeftValue);
         var leftHandDevices = new List<UnityEngine.XR.InputDevice>();
         UnityEngine.XR.InputDevices.GetDevicesAtXRNode(UnityEngine.XR.XRNode.LeftHand, leftHandDevices);
 
         if (leftHandDevices.Count == 1)
         {
-            UnityEngine.XR.InputDevice device = leftHandDevices[0];
-            device1 = device;
-            Debug.Log(string.Format("Device name '{0}' with role '{1}'", device.name, device.role.ToString()));
+            UnityEngine.XR.InputDevice device1L = leftHandDevices[0];
+            deviceL = device1L;
+            Debug.Log(string.Format("Device name '{0}' with role '{1}'", device1L.name, device1L.role.ToString()));
         }
         else if (leftHandDevices.Count > 1)
         {
             Debug.Log("Found more than one left hand!");
         }
 
-        device1.TryGetFeatureValue(UnityEngine.XR.CommonUsages.trigger, out triggerValue);
+        deviceL.TryGetFeatureValue(UnityEngine.XR.CommonUsages.trigger, out triggerLeftValue);
 
-        if (triggerValue > 0.1f)
+        if (triggerLeftValue > 0.1f)
         {
-            Debug.Log(triggerValue);
-
+            Debug.Log(triggerLeftValue);
+            heftruck.transform.Translate(wheel.transform.right * triggerLeftValue);
         }
 
+        //rightGasForward
+
+        heftruck.transform.Translate(wheel.transform.right * -triggerRightValue);
+        var RightHandDevices = new List<UnityEngine.XR.InputDevice>();
+        UnityEngine.XR.InputDevices.GetDevicesAtXRNode(UnityEngine.XR.XRNode.RightHand, RightHandDevices);
+
+        if (RightHandDevices.Count == 1)
+        {
+            UnityEngine.XR.InputDevice device1R = RightHandDevices[0];
+            deviceR = device1R;
+            Debug.Log(string.Format("Device name '{0}' with role '{1}'", device1R.name, device1R.role.ToString()));
+        }
+        else if (RightHandDevices.Count > 1)
+        {
+            Debug.Log("Found more than one left hand!");
+        }
+
+        deviceL.TryGetFeatureValue(UnityEngine.XR.CommonUsages.trigger, out triggerLeftValue);
+
+        if (triggerLeftValue > 0.1f)
+        {
+            Debug.Log(triggerLeftValue);
+            heftruck.transform.Translate(wheel.transform.right * triggerLeftValue);
+        }
+
+        /*
         if (holdingStick)
         {
-            heftruck.transform.Translate(wheel.transform.right * triggerValue);
-            /*
+            heftruck.transform.Translate(wheel.transform.right * triggerLeftValue);
+            
             forwardBackwardTiltGas = topJoystickGas.rotation.eulerAngles.x;
             if (forwardBackwardTiltGas < 355 && forwardBackwardTiltGas > 290)
             {
@@ -62,11 +92,13 @@ public class GasJoystick : MonoBehaviour
                 speed = (forwardBackwardTiltGas / 1400) / 2;
 
             }
-            */
+            
         }
-        
+        */
+
     }
 
+    /*
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == ("playerLeftHand"))
@@ -84,4 +116,5 @@ public class GasJoystick : MonoBehaviour
             holdingStick = false;
         }
     }
+    */
 }
