@@ -25,7 +25,6 @@ public class GasJoystick : MonoBehaviour
     void Update()
     {
         //left gas forward
-        heftruck.transform.Translate(wheel.transform.right * triggerLeftValue);
         var leftHandDevices = new List<UnityEngine.XR.InputDevice>();
         UnityEngine.XR.InputDevices.GetDevicesAtXRNode(UnityEngine.XR.XRNode.LeftHand, leftHandDevices);
 
@@ -50,7 +49,6 @@ public class GasJoystick : MonoBehaviour
 
         //rightGasForward
 
-        heftruck.transform.Translate(wheel.transform.right * -triggerRightValue);
         var RightHandDevices = new List<UnityEngine.XR.InputDevice>();
         UnityEngine.XR.InputDevices.GetDevicesAtXRNode(UnityEngine.XR.XRNode.RightHand, RightHandDevices);
 
@@ -65,12 +63,12 @@ public class GasJoystick : MonoBehaviour
             Debug.Log("Found more than one left hand!");
         }
 
-        deviceL.TryGetFeatureValue(UnityEngine.XR.CommonUsages.trigger, out triggerLeftValue);
+        deviceR.TryGetFeatureValue(UnityEngine.XR.CommonUsages.trigger, out triggerRightValue);
 
-        if (triggerLeftValue > 0.1f)
+        if (triggerRightValue > 0.1f)
         {
-            Debug.Log(triggerLeftValue);
-            heftruck.transform.Translate(wheel.transform.right * triggerLeftValue);
+            Debug.Log(triggerRightValue);
+            heftruck.transform.Translate(wheel.transform.right * -triggerRightValue);
         }
 
         /*
