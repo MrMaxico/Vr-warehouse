@@ -21,6 +21,7 @@ public class GasJoystick : MonoBehaviour
 
     void Update()
     {
+        heftruck.transform.Translate(wheel.transform.right * triggerValue);
         var leftHandDevices = new List<UnityEngine.XR.InputDevice>();
         UnityEngine.XR.InputDevices.GetDevicesAtXRNode(UnityEngine.XR.XRNode.LeftHand, leftHandDevices);
 
