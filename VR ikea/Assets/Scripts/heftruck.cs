@@ -45,16 +45,19 @@ public class heftruck : MonoBehaviour
 
     private void EnterHeftruck(InputAction.CallbackContext obj)
     {
-        if (inHeftruck)
+        if(Vector3.Distance(playerOrigin.transform.position, transform.position) < 4)
         {
-            inHeftruck = false;
-            playerOrigin.transform.position = transform.position - new Vector3(2, 0, 0); // spawn speler naast heftruck, de speler stapt uit
-        }
+            if (inHeftruck)
+            {
+                inHeftruck = false;
+                playerOrigin.transform.position = transform.position - new Vector3(2, 0, 0); // spawn speler naast heftruck, de speler stapt uit
+            }
 
-        Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 10);
-        if (hit.transform.gameObject.tag == "forklift")
-        {
-            inHeftruck = true;
+            Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 10);
+            if (hit.transform.gameObject.tag == "forklift")
+            {
+                inHeftruck = true;
+            }
         }
     }
 }
