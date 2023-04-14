@@ -10,6 +10,7 @@ public class Pallet : MonoBehaviour
     private bool hasToBeFilled; //zorgt ervoor dat 1 item niet alles in de pallet vult, een glitch
     private int childCounter; //telt voor de grote dozen hoeveel kleine er zijn
     public Transform parentItems;
+    public GameObject placeParticle;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,6 +24,7 @@ public class Pallet : MonoBehaviour
                     if (child.gameObject.GetComponent<PalletPosition>().isFull == false && hasToBeFilled && bigItems[i].gameObject.GetComponent<PalletPosition>().isFull == false)
                     {
                         other.transform.position = child.position;
+                        Instantiate(placeParticle, transform.position, transform.rotation);
                         other.transform.parent = parentItems;
                         other.transform.rotation = child.rotation;
                         //other.GetComponent<Rigidbody>().freezeRotation = true;
