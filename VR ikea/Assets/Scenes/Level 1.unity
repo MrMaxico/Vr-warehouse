@@ -22176,6 +22176,7 @@ MonoBehaviour:
   - {fileID: 1902858694}
   - {fileID: 611639263}
   parentItems: {fileID: 754538118}
+  placeParticle: {fileID: 0}
 --- !u!4 &610199064
 Transform:
   m_ObjectHideFlags: 0
@@ -26483,6 +26484,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8628529447361701432, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8628529447532074699, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8628529447621307279, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8628529447744867508, guid: ab8ca3c1797bac144b2134a69298d408,
+        type: 3}
+      propertyPath: m_text
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8628529447914554762, guid: ab8ca3c1797bac144b2134a69298d408,
         type: 3}
