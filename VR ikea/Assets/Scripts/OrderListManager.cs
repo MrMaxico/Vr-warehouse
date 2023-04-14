@@ -25,7 +25,7 @@ public class OrderListManager : MonoBehaviour
     {
         for(int i = 0; i < itemsOrder.Count; i++) {
             orders.transform.GetChild(i).GetChild(2).GetComponent<TMP_Text>().text = itemsOrder[i].GetComponent<ItemData>().itemName;
-            Debug.Log(itemsOrder[i].GetComponent<ItemData>().itemName);
+            Debug.Log(itemsOrder[i].name);
             orders.transform.GetChild(i).GetChild(3).GetComponent<TMP_Text>().text = itemsOrder[i].GetComponent<ItemData>().itemLocation;
         }
         //for (int i = 0; i < itemsOrder.Length; i++)
