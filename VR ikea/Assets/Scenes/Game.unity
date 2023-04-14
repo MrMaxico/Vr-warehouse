@@ -260,6 +260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &4547340
@@ -2722,6 +2727,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &57463382
@@ -3130,7 +3140,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 248
+  m_RootOrder: 263
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &66785990
 PrefabInstance:
@@ -3741,6 +3751,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (099)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &82889380
@@ -4224,6 +4239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &92355750
@@ -4292,6 +4312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -4430,6 +4455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -4643,6 +4673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -5711,6 +5746,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (094)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &123312837
@@ -5779,6 +5819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -7182,6 +7227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &152968072
@@ -8138,37 +8188,37 @@ PrefabInstance:
     - target: {fileID: 1998055636540388862, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999619
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1998055636540388862, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0002468815
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1998055636540388862, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.008697468
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1998055636540388862, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0006834674
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1998055636540388862, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.029
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1998055636540388862, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.997
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1998055636540388862, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.078
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f84df6c48fc3e74f87a2ac728f5f8dc, type: 3}
@@ -9298,6 +9348,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &207905916
@@ -9653,6 +9708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &216201657
@@ -9754,7 +9814,7 @@ Transform:
   m_Children:
   - {fileID: 1298292713}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &223221710
 PrefabInstance:
@@ -10330,6 +10390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (096)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &234507488
@@ -10610,6 +10675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &238092156
@@ -10678,6 +10748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -11470,7 +11545,7 @@ Transform:
   - {fileID: 652771359}
   - {fileID: 1029455860}
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &251279898
 PrefabInstance:
@@ -12383,6 +12458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &267131992
@@ -13093,6 +13173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (095)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &284242508
@@ -13161,6 +13246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -13299,6 +13389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -13812,6 +13907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!4 &295855320 stripped
@@ -14196,6 +14296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &308883900
@@ -14516,6 +14621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (060)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -16015,7 +16125,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &351815676
 GameObject:
@@ -16205,6 +16315,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -16657,6 +16772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -17174,6 +17294,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2763975653954975505, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -17530,6 +17655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (073)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -18049,7 +18179,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &398658521
 PrefabInstance:
@@ -18394,6 +18524,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (089)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!4 &400751221 stripped
@@ -18475,6 +18610,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &404187037
@@ -18543,6 +18683,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -19001,6 +19146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -19616,7 +19766,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 246
+  m_RootOrder: 259
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &427856718
 PrefabInstance:
@@ -19860,6 +20010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (069)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -22649,6 +22804,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &498250406
@@ -23612,6 +23772,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (072)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &525602340
@@ -23966,6 +24131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -25055,6 +25225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -26209,6 +26384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (091)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &574888301
@@ -26425,6 +26605,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (079)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -28448,6 +28633,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (074)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1 &611639262
@@ -28846,6 +29036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -30613,6 +30808,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &662248966
@@ -31466,6 +31666,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (183)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -32723,6 +32928,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (078)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &723455543
@@ -33586,6 +33796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &728723155
@@ -33727,6 +33942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -34168,6 +34388,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &739338016
@@ -34481,7 +34706,7 @@ RectTransform:
   m_Children:
   - {fileID: 673446342}
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 179.618, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -34972,7 +35197,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &760375898
 PrefabInstance:
@@ -35040,6 +35265,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -35538,6 +35768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &772776822
@@ -35606,6 +35841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -37520,6 +37760,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (178)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &811370684
@@ -37906,6 +38151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -38557,7 +38807,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -39208,6 +39458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -40887,6 +41142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1 &879897620
@@ -40983,7 +41243,7 @@ RectTransform:
   m_Children:
   - {fileID: 614752314}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -41769,6 +42029,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!4 &891652779 stripped
@@ -41843,6 +42108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (184)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -43235,6 +43505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &929101549
@@ -43841,7 +44116,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 253
+  m_RootOrder: 274
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &942736937
 PrefabInstance:
@@ -44048,6 +44323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1 &948230063
@@ -44163,7 +44443,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 410
+  m_RootOrder: 432
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &948913504
 PrefabInstance:
@@ -44800,6 +45080,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1 &961662088
@@ -45043,6 +45328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -45589,6 +45879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &980997485
@@ -45862,6 +46157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &987983661
@@ -46068,6 +46368,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (097)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -46430,7 +46735,7 @@ Transform:
   - {fileID: 2106080254}
   - {fileID: 724398689}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &993420079
 PrefabInstance:
@@ -46844,6 +47149,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1003108335
@@ -47123,6 +47433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (182)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -48588,6 +48903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1041739891
@@ -49406,6 +49726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -50521,6 +50846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1090216439
@@ -50727,6 +51057,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -51104,6 +51439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1103017686
@@ -51241,6 +51581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -51385,6 +51730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -51630,6 +51980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -52130,6 +52485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1123793403
@@ -52198,6 +52558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (068)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -52273,6 +52638,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (192)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -53009,6 +53379,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -54439,6 +54814,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!4 &1162256238 stripped
@@ -55364,6 +55744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -56883,6 +57268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (071)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1222615960
@@ -57330,7 +57720,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 384
+  m_RootOrder: 403
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!1001 &1238992099
 PrefabInstance:
@@ -57541,6 +57931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1240729537
@@ -57683,6 +58078,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1241395448
@@ -57751,6 +58151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -58032,6 +58437,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1245211991
@@ -58100,6 +58510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -58380,6 +58795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -58870,6 +59290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!4 &1262518105 stripped
@@ -59064,7 +59489,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1271592099
 PrefabInstance:
@@ -59909,6 +60334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1287156847
@@ -60120,6 +60550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1 &1288624001
@@ -60235,7 +60670,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1289356281
 PrefabInstance:
@@ -62260,6 +62695,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1327057801
@@ -62848,7 +63288,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 243
+  m_RootOrder: 254
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1341152082
 PrefabInstance:
@@ -64412,6 +64852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1375789198
@@ -65447,6 +65892,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!4 &1395467502 stripped
@@ -65659,6 +66109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -66101,6 +66556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -66818,6 +67278,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1419830432
@@ -67029,6 +67494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1423094819
@@ -67167,6 +67637,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (070)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1424282079
@@ -67235,6 +67710,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -68289,6 +68769,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1444977369
@@ -68499,6 +68984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -69964,7 +70454,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 386
+  m_RootOrder: 406
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!1001 &1488743425
 PrefabInstance:
@@ -70032,6 +70522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -70308,6 +70803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -71009,6 +71509,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1 &1512407854
@@ -71106,7 +71611,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 241
+  m_RootOrder: 249
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1513124259 stripped
 Transform:
@@ -71679,6 +72184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -73183,6 +73693,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (077)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1551156428
@@ -73462,6 +73977,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -74935,6 +75455,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (081)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1585098469
@@ -75003,6 +75528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -76575,6 +77105,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1617517017
@@ -76785,6 +77320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -77496,7 +78036,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 252
+  m_RootOrder: 271
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &1631431912 stripped
 Transform:
@@ -77713,6 +78253,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -78389,6 +78934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1647901703
@@ -78457,6 +79007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -80484,6 +81039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1690157845
@@ -81115,6 +81675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (076)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1702847419
@@ -81542,6 +82107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (090)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -82320,6 +82890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1716184437
@@ -83063,7 +83638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721161197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 0.05, z: 10.77}
+  m_LocalPosition: {x: -0.1, y: 0.05, z: 10.96}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -83073,7 +83648,7 @@ Transform:
   - {fileID: 1902762816}
   - {fileID: 338973254}
   m_Father: {fileID: 0}
-  m_RootOrder: 1032
+  m_RootOrder: 1035
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1723194950
 PrefabInstance:
@@ -83141,6 +83716,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -83415,6 +83995,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1733049893
@@ -83552,6 +84137,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -87344,6 +87934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1803020887
@@ -88183,6 +88778,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1815375972
@@ -88404,6 +89004,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1820846656
@@ -88545,6 +89150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -89143,6 +89753,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1828253704
@@ -89426,6 +90041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (061)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -90500,7 +91120,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1849200986
 PrefabInstance:
@@ -91414,6 +92034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1866988710
@@ -92065,6 +92690,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1885581857
@@ -92271,6 +92901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (092)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -93706,7 +94341,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 123
+  m_RootOrder: 144
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1910683619
 PrefabInstance:
@@ -94557,6 +95192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (067)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1928194912
@@ -94977,6 +95617,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1934953447
@@ -95115,6 +95760,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1937055241
@@ -95183,6 +95833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -95282,7 +95937,7 @@ RectTransform:
   - {fileID: 1758626008}
   - {fileID: 312593601}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0.375, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -95355,6 +96010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (080)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -95574,6 +96234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -96161,6 +96826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!4 &1956545779 stripped
@@ -96586,6 +97256,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -97768,6 +98443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1983705775
@@ -98300,6 +98980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &1994566280
@@ -98705,7 +99390,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 242
+  m_RootOrder: 252
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2005041257
 PrefabInstance:
@@ -99308,6 +99993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -100708,7 +101398,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 250
+  m_RootOrder: 266
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &2046871452 stripped
 Transform:
@@ -101469,6 +102159,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &2058279648
@@ -101774,6 +102469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -102211,6 +102911,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pallet (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
 --- !u!1001 &2073487362
@@ -102348,6 +103053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -102624,6 +103334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (082)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -103247,7 +103962,7 @@ Transform:
   - {fileID: 725503685}
   - {fileID: 1011899194}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &2095574946
 PrefabInstance:
@@ -103751,7 +104466,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2098833325
 PrefabInstance:
@@ -103819,6 +104534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}
@@ -104032,6 +104752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pallet (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781525949373151226, guid: 2780139dd40f08e4eac566c81a03e353,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2780139dd40f08e4eac566c81a03e353, type: 3}

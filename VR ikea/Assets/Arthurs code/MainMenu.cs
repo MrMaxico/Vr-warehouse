@@ -23,9 +23,7 @@ public class MainMenu : MonoBehaviour
         mainMenu.SetActive(true);
     }
     public void LoadLevel(int num) {
-        if (levelCounter == num) {
-            SceneManager.LoadScene("Level" + num);
-        }
+            SceneManager.LoadScene("Game");
     }
     public void Quit() {
         Application.Quit();
