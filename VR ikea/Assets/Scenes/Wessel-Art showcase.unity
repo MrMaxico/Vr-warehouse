@@ -9312,6 +9312,7 @@ MonoBehaviour:
   - {fileID: 16473552}
   - {fileID: 6064416}
   parentItems: {fileID: 333655885}
+  placeParticle: {fileID: 0}
 --- !u!1001 &1259714683
 PrefabInstance:
   m_ObjectHideFlags: 0
